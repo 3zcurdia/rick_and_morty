@@ -8,12 +8,16 @@ class RickAndMortyTest < Minitest::Test
   end
 
   def test_fetch_all_characters
-    assert_instance_of Array, RickAndMorty.characters
-    assert_instance_of Hash, RickAndMorty.characters.first
+    VCR.use_cassette("characters") do
+      assert_instance_of Array, RickAndMorty.characters
+      assert_instance_of Hash, RickAndMorty.characters.first
+    end
   end
 
   def test_fetch_character
-    assert_instance_of Hash, RickAndMorty.character(1)
+    VCR.use_cassette("character") do
+      assert_instance_of Hash, RickAndMorty.character(1)
+    end
   end
 
   def test_fetch_all_episodes

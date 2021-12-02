@@ -48,7 +48,7 @@ DEPENDENCIES
   rake (~> 13.0)
   rick_and_morty!
   rubocop (~> 1.21)
-  vcr (~> 6.0)
+  vcr
   webmock
 
 BUNDLED WITH

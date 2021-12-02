@@ -9,8 +9,8 @@ module RickAndMorty
       @base_url = base_url
     end
 
-    def get(path)
-      request(path) do |uri|
+    def get(path, **args)
+      request(path, **args) do |uri|
         Net::HTTP::Get.new(uri)
       end
     end
@@ -37,8 +37,10 @@ module RickAndMorty
 
     attr_reader :base_url
 
-    def request(path)
+    def request(path, **args)
       uri = URI.join(base_url, path)
+      query_items = args.fetch(:query, {}).compact
+      uri.query = URI.encode_www_form(query_items)
       Net::HTTP.start(uri.host, uri.port, use_ssl: true) do |http|
         request = yield(uri)
         handle(http.request(request))
@@ -50,9 +52,9 @@ module RickAndMorty
       when Net::HTTPSuccess
         parse_json(request.body)
       when Net::HTTPClientError
-        raise ClientError, "[#{request.code}] Client error"
+        raise ClientError, "[#{request.code}]#{request.class}"
       when Net::HTTPServerError
-        raise ServerError, "[#{request.code}] Server error"
+        raise ServerError, "[#{request.code}]#{request.class}"
       end
     end
 

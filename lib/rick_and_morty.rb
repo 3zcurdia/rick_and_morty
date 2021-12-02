@@ -2,6 +2,7 @@
 
 require_relative "rick_and_morty/version"
 require_relative "rick_and_morty/client"
+require_relative "rick_and_morty/character"
 
 module RickAndMorty
   class Error < StandardError; end
@@ -9,11 +10,11 @@ module RickAndMorty
   class ServerError < Error; end
 
   def self.characters
-    [{}]
+    Character.new.list
   end
 
-  def self.character(_id)
-    {}
+  def self.character(id)
+    Character.new.find(id)
   end
 
   def self.locations
