@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
+require "json"
 require_relative "rick_and_morty/version"
+require_relative "rick_and_morty/async_stream"
 require_relative "rick_and_morty/client"
 require_relative "rick_and_morty/endpoint"
 require_relative "rick_and_morty/character"

@@ -8,7 +8,10 @@ module RickAndMorty
 
     def all
       response = client.get(endpoint_name)
-      response[:results] + threaded_list(response.dig(:info, :pages)) { |page| list(page) }
+      range = (2..response.dig(:info, :pages))
+      response[:results] + AsyncStream.new(range).sum do |page|
+        list(page)
+      end
     end
 
     def list(page = nil)
@@ -25,12 +28,6 @@ module RickAndMorty
 
     def endpoint_name
       @endpoint_name ||= self.class.name.split("::")[-1].downcase
-    end
-
-    def threaded_list(max)
-      (2..max).map do |page|
-        Thread.new { yield(page) }
-      end.map(&:value).inject(:+)
     end
   end
 end
