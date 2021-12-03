@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
 module RickAndMorty
-  class Character < Endpoint
+  class Episode < Endpoint
   end
 end

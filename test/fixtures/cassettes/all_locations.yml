@@ -1,0 +1,825 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/location
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - rickandmortyapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=259200
+      - public
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 01 Dec 2021 23:08:28 GMT
+      Etag:
+      - W/"6a76-c5Z7RAzAy2qdeBqdWdXRW287PBI"
+      Expires:
+      - Sat, 04 Dec 2021 23:08:28 GMT
+      Server:
+      - Netlify
+      X-Nf-Request-Id:
+      - 01FP0XQT0HS4KPD85C4MJDWQWW
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - Express
+      Age:
+      - '161104'
+      Content-Length:
+      - '2372'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"info":{"count":126,"pages":7,"next":"https://rickandmortyapi.com/api/location?page=2","prev":null},"results":[{"id":1,"name":"Earth
+        (C-137)","type":"Planet","dimension":"Dimension C-137","residents":["https://rickandmortyapi.com/api/character/38","https://rickandmortyapi.com/api/character/45","https://rickandmortyapi.com/api/character/71","https://rickandmortyapi.com/api/character/82","https://rickandmortyapi.com/api/character/83","https://rickandmortyapi.com/api/character/92","https://rickandmortyapi.com/api/character/112","https://rickandmortyapi.com/api/character/114","https://rickandmortyapi.com/api/character/116","https://rickandmortyapi.com/api/character/117","https://rickandmortyapi.com/api/character/120","https://rickandmortyapi.com/api/character/127","https://rickandmortyapi.com/api/character/155","https://rickandmortyapi.com/api/character/169","https://rickandmortyapi.com/api/character/175","https://rickandmortyapi.com/api/character/179","https://rickandmortyapi.com/api/character/186","https://rickandmortyapi.com/api/character/201","https://rickandmortyapi.com/api/character/216","https://rickandmortyapi.com/api/character/239","https://rickandmortyapi.com/api/character/271","https://rickandmortyapi.com/api/character/302","https://rickandmortyapi.com/api/character/303","https://rickandmortyapi.com/api/character/338","https://rickandmortyapi.com/api/character/343","https://rickandmortyapi.com/api/character/356","https://rickandmortyapi.com/api/character/394"],"url":"https://rickandmortyapi.com/api/location/1","created":"2017-11-10T12:42:04.162Z"},{"id":2,"name":"Abadango","type":"Cluster","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/6"],"url":"https://rickandmortyapi.com/api/location/2","created":"2017-11-10T13:06:38.182Z"},{"id":3,"name":"Citadel
+        of Ricks","type":"Space station","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/8","https://rickandmortyapi.com/api/character/14","https://rickandmortyapi.com/api/character/15","https://rickandmortyapi.com/api/character/18","https://rickandmortyapi.com/api/character/21","https://rickandmortyapi.com/api/character/22","https://rickandmortyapi.com/api/character/27","https://rickandmortyapi.com/api/character/42","https://rickandmortyapi.com/api/character/43","https://rickandmortyapi.com/api/character/44","https://rickandmortyapi.com/api/character/48","https://rickandmortyapi.com/api/character/53","https://rickandmortyapi.com/api/character/56","https://rickandmortyapi.com/api/character/61","https://rickandmortyapi.com/api/character/69","https://rickandmortyapi.com/api/character/72","https://rickandmortyapi.com/api/character/73","https://rickandmortyapi.com/api/character/74","https://rickandmortyapi.com/api/character/77","https://rickandmortyapi.com/api/character/78","https://rickandmortyapi.com/api/character/85","https://rickandmortyapi.com/api/character/86","https://rickandmortyapi.com/api/character/95","https://rickandmortyapi.com/api/character/118","https://rickandmortyapi.com/api/character/119","https://rickandmortyapi.com/api/character/123","https://rickandmortyapi.com/api/character/135","https://rickandmortyapi.com/api/character/143","https://rickandmortyapi.com/api/character/152","https://rickandmortyapi.com/api/character/164","https://rickandmortyapi.com/api/character/165","https://rickandmortyapi.com/api/character/187","https://rickandmortyapi.com/api/character/200","https://rickandmortyapi.com/api/character/206","https://rickandmortyapi.com/api/character/209","https://rickandmortyapi.com/api/character/220","https://rickandmortyapi.com/api/character/229","https://rickandmortyapi.com/api/character/231","https://rickandmortyapi.com/api/character/235","https://rickandmortyapi.com/api/character/267","https://rickandmortyapi.com/api/character/278","https://rickandmortyapi.com/api/character/281","https://rickandmortyapi.com/api/character/283","https://rickandmortyapi.com/api/character/284","https://rickandmortyapi.com/api/character/285","https://rickandmortyapi.com/api/character/286","https://rickandmortyapi.com/api/character/287","https://rickandmortyapi.com/api/character/288","https://rickandmortyapi.com/api/character/289","https://rickandmortyapi.com/api/character/291","https://rickandmortyapi.com/api/character/295","https://rickandmortyapi.com/api/character/298","https://rickandmortyapi.com/api/character/299","https://rickandmortyapi.com/api/character/322","https://rickandmortyapi.com/api/character/325","https://rickandmortyapi.com/api/character/328","https://rickandmortyapi.com/api/character/330","https://rickandmortyapi.com/api/character/345","https://rickandmortyapi.com/api/character/359","https://rickandmortyapi.com/api/character/366","https://rickandmortyapi.com/api/character/378","https://rickandmortyapi.com/api/character/385","https://rickandmortyapi.com/api/character/392","https://rickandmortyapi.com/api/character/461","https://rickandmortyapi.com/api/character/462","https://rickandmortyapi.com/api/character/463","https://rickandmortyapi.com/api/character/464","https://rickandmortyapi.com/api/character/465","https://rickandmortyapi.com/api/character/466","https://rickandmortyapi.com/api/character/472","https://rickandmortyapi.com/api/character/473","https://rickandmortyapi.com/api/character/474","https://rickandmortyapi.com/api/character/475","https://rickandmortyapi.com/api/character/476","https://rickandmortyapi.com/api/character/477","https://rickandmortyapi.com/api/character/478","https://rickandmortyapi.com/api/character/479","https://rickandmortyapi.com/api/character/480","https://rickandmortyapi.com/api/character/481","https://rickandmortyapi.com/api/character/482","https://rickandmortyapi.com/api/character/483","https://rickandmortyapi.com/api/character/484","https://rickandmortyapi.com/api/character/485","https://rickandmortyapi.com/api/character/486","https://rickandmortyapi.com/api/character/487","https://rickandmortyapi.com/api/character/488","https://rickandmortyapi.com/api/character/489","https://rickandmortyapi.com/api/character/2","https://rickandmortyapi.com/api/character/1","https://rickandmortyapi.com/api/character/801","https://rickandmortyapi.com/api/character/802","https://rickandmortyapi.com/api/character/803","https://rickandmortyapi.com/api/character/804","https://rickandmortyapi.com/api/character/805","https://rickandmortyapi.com/api/character/806","https://rickandmortyapi.com/api/character/810","https://rickandmortyapi.com/api/character/811","https://rickandmortyapi.com/api/character/812","https://rickandmortyapi.com/api/character/819","https://rickandmortyapi.com/api/character/820","https://rickandmortyapi.com/api/character/818"],"url":"https://rickandmortyapi.com/api/location/3","created":"2017-11-10T13:08:13.191Z"},{"id":4,"name":"Worldender''s
+        lair","type":"Planet","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/10","https://rickandmortyapi.com/api/character/81","https://rickandmortyapi.com/api/character/208","https://rickandmortyapi.com/api/character/226","https://rickandmortyapi.com/api/character/340","https://rickandmortyapi.com/api/character/362","https://rickandmortyapi.com/api/character/375","https://rickandmortyapi.com/api/character/382","https://rickandmortyapi.com/api/character/395"],"url":"https://rickandmortyapi.com/api/location/4","created":"2017-11-10T13:08:20.569Z"},{"id":5,"name":"Anatomy
+        Park","type":"Microverse","dimension":"Dimension C-137","residents":["https://rickandmortyapi.com/api/character/12","https://rickandmortyapi.com/api/character/17","https://rickandmortyapi.com/api/character/96","https://rickandmortyapi.com/api/character/97","https://rickandmortyapi.com/api/character/98","https://rickandmortyapi.com/api/character/99","https://rickandmortyapi.com/api/character/100","https://rickandmortyapi.com/api/character/101","https://rickandmortyapi.com/api/character/108","https://rickandmortyapi.com/api/character/268","https://rickandmortyapi.com/api/character/300"],"url":"https://rickandmortyapi.com/api/location/5","created":"2017-11-10T13:08:46.060Z"},{"id":6,"name":"Interdimensional
+        Cable","type":"TV","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/20","https://rickandmortyapi.com/api/character/28","https://rickandmortyapi.com/api/character/29","https://rickandmortyapi.com/api/character/34","https://rickandmortyapi.com/api/character/49","https://rickandmortyapi.com/api/character/51","https://rickandmortyapi.com/api/character/54","https://rickandmortyapi.com/api/character/121","https://rickandmortyapi.com/api/character/126","https://rickandmortyapi.com/api/character/129","https://rickandmortyapi.com/api/character/134","https://rickandmortyapi.com/api/character/136","https://rickandmortyapi.com/api/character/145","https://rickandmortyapi.com/api/character/157","https://rickandmortyapi.com/api/character/173","https://rickandmortyapi.com/api/character/184","https://rickandmortyapi.com/api/character/205","https://rickandmortyapi.com/api/character/207","https://rickandmortyapi.com/api/character/214","https://rickandmortyapi.com/api/character/222","https://rickandmortyapi.com/api/character/223","https://rickandmortyapi.com/api/character/224","https://rickandmortyapi.com/api/character/225","https://rickandmortyapi.com/api/character/250","https://rickandmortyapi.com/api/character/254","https://rickandmortyapi.com/api/character/260","https://rickandmortyapi.com/api/character/264","https://rickandmortyapi.com/api/character/266","https://rickandmortyapi.com/api/character/275","https://rickandmortyapi.com/api/character/277","https://rickandmortyapi.com/api/character/279","https://rickandmortyapi.com/api/character/312","https://rickandmortyapi.com/api/character/314","https://rickandmortyapi.com/api/character/315","https://rickandmortyapi.com/api/character/316","https://rickandmortyapi.com/api/character/317","https://rickandmortyapi.com/api/character/318","https://rickandmortyapi.com/api/character/334","https://rickandmortyapi.com/api/character/351","https://rickandmortyapi.com/api/character/358","https://rickandmortyapi.com/api/character/367","https://rickandmortyapi.com/api/character/370","https://rickandmortyapi.com/api/character/373","https://rickandmortyapi.com/api/character/403","https://rickandmortyapi.com/api/character/406","https://rickandmortyapi.com/api/character/407","https://rickandmortyapi.com/api/character/408","https://rickandmortyapi.com/api/character/409","https://rickandmortyapi.com/api/character/410","https://rickandmortyapi.com/api/character/411","https://rickandmortyapi.com/api/character/412","https://rickandmortyapi.com/api/character/413","https://rickandmortyapi.com/api/character/414","https://rickandmortyapi.com/api/character/415","https://rickandmortyapi.com/api/character/416","https://rickandmortyapi.com/api/character/417","https://rickandmortyapi.com/api/character/418","https://rickandmortyapi.com/api/character/457","https://rickandmortyapi.com/api/character/458","https://rickandmortyapi.com/api/character/459","https://rickandmortyapi.com/api/character/709","https://rickandmortyapi.com/api/character/711"],"url":"https://rickandmortyapi.com/api/location/6","created":"2017-11-10T13:09:09.102Z"},{"id":7,"name":"Immortality
+        Field Resort","type":"Resort","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/23","https://rickandmortyapi.com/api/character/204","https://rickandmortyapi.com/api/character/320"],"url":"https://rickandmortyapi.com/api/location/7","created":"2017-11-10T13:09:17.136Z"},{"id":8,"name":"Post-Apocalyptic
+        Earth","type":"Planet","dimension":"Post-Apocalyptic Dimension","residents":["https://rickandmortyapi.com/api/character/25","https://rickandmortyapi.com/api/character/52","https://rickandmortyapi.com/api/character/68","https://rickandmortyapi.com/api/character/110","https://rickandmortyapi.com/api/character/111","https://rickandmortyapi.com/api/character/140","https://rickandmortyapi.com/api/character/156","https://rickandmortyapi.com/api/character/228","https://rickandmortyapi.com/api/character/323","https://rickandmortyapi.com/api/character/342"],"url":"https://rickandmortyapi.com/api/location/8","created":"2017-11-10T13:09:22.551Z"},{"id":9,"name":"Purge
+        Planet","type":"Planet","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/26","https://rickandmortyapi.com/api/character/139","https://rickandmortyapi.com/api/character/202","https://rickandmortyapi.com/api/character/273"],"url":"https://rickandmortyapi.com/api/location/9","created":"2017-11-10T13:09:29.566Z"},{"id":10,"name":"Venzenulon
+        7","type":"Planet","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/33"],"url":"https://rickandmortyapi.com/api/location/10","created":"2017-11-18T11:21:51.643Z"},{"id":11,"name":"Bepis
+        9","type":"Planet","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/35"],"url":"https://rickandmortyapi.com/api/location/11","created":"2017-11-18T11:26:03.325Z"},{"id":12,"name":"Cronenberg
+        Earth","type":"Planet","dimension":"Cronenberg Dimension","residents":[],"url":"https://rickandmortyapi.com/api/location/12","created":"2017-11-18T11:29:27.857Z"},{"id":13,"name":"Nuptia
+        4","type":"Planet","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/40","https://rickandmortyapi.com/api/character/55","https://rickandmortyapi.com/api/character/131","https://rickandmortyapi.com/api/character/132","https://rickandmortyapi.com/api/character/146","https://rickandmortyapi.com/api/character/148","https://rickandmortyapi.com/api/character/163","https://rickandmortyapi.com/api/character/178","https://rickandmortyapi.com/api/character/310","https://rickandmortyapi.com/api/character/386","https://rickandmortyapi.com/api/character/387"],"url":"https://rickandmortyapi.com/api/location/13","created":"2017-11-18T11:30:29.780Z"},{"id":14,"name":"Giant''s
+        Town","type":"Fantasy town","dimension":"Fantasy Dimension","residents":["https://rickandmortyapi.com/api/character/89","https://rickandmortyapi.com/api/character/399","https://rickandmortyapi.com/api/character/400"],"url":"https://rickandmortyapi.com/api/location/14","created":"2017-11-18T11:31:15.248Z"},{"id":15,"name":"Bird
+        World","type":"Planet","dimension":"unknown","residents":[],"url":"https://rickandmortyapi.com/api/location/15","created":"2017-11-18T11:32:26.752Z"},{"id":16,"name":"St.
+        Gloopy Noops Hospital","type":"Space station","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/105","https://rickandmortyapi.com/api/character/263","https://rickandmortyapi.com/api/character/321","https://rickandmortyapi.com/api/character/383","https://rickandmortyapi.com/api/character/384","https://rickandmortyapi.com/api/character/454","https://rickandmortyapi.com/api/character/455","https://rickandmortyapi.com/api/character/456","https://rickandmortyapi.com/api/character/460"],"url":"https://rickandmortyapi.com/api/location/16","created":"2017-11-18T11:43:20.075Z"},{"id":17,"name":"Earth
+        (5-126)","type":"Planet","dimension":"Dimension 5-126","residents":[],"url":"https://rickandmortyapi.com/api/location/17","created":"2017-11-18T11:41:08.486Z"},{"id":18,"name":"Mr.
+        Goldenfold''s dream","type":"Dream","dimension":"Dimension C-137","residents":["https://rickandmortyapi.com/api/character/63","https://rickandmortyapi.com/api/character/80","https://rickandmortyapi.com/api/character/221","https://rickandmortyapi.com/api/character/246","https://rickandmortyapi.com/api/character/304","https://rickandmortyapi.com/api/character/305","https://rickandmortyapi.com/api/character/306","https://rickandmortyapi.com/api/character/396"],"url":"https://rickandmortyapi.com/api/location/18","created":"2017-11-18T11:46:22.933Z"},{"id":19,"name":"Gromflom
+        Prime","type":"Planet","dimension":"Replacement Dimension","residents":[],"url":"https://rickandmortyapi.com/api/location/19","created":"2017-11-18T11:39:52.165Z"},{"id":20,"name":"Earth
+        (Replacement Dimension)","type":"Planet","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/3","https://rickandmortyapi.com/api/character/4","https://rickandmortyapi.com/api/character/5","https://rickandmortyapi.com/api/character/9","https://rickandmortyapi.com/api/character/11","https://rickandmortyapi.com/api/character/13","https://rickandmortyapi.com/api/character/16","https://rickandmortyapi.com/api/character/31","https://rickandmortyapi.com/api/character/32","https://rickandmortyapi.com/api/character/50","https://rickandmortyapi.com/api/character/58","https://rickandmortyapi.com/api/character/59","https://rickandmortyapi.com/api/character/64","https://rickandmortyapi.com/api/character/66","https://rickandmortyapi.com/api/character/76","https://rickandmortyapi.com/api/character/88","https://rickandmortyapi.com/api/character/103","https://rickandmortyapi.com/api/character/107","https://rickandmortyapi.com/api/character/109","https://rickandmortyapi.com/api/character/113","https://rickandmortyapi.com/api/character/115","https://rickandmortyapi.com/api/character/124","https://rickandmortyapi.com/api/character/128","https://rickandmortyapi.com/api/character/137","https://rickandmortyapi.com/api/character/138","https://rickandmortyapi.com/api/character/141","https://rickandmortyapi.com/api/character/147","https://rickandmortyapi.com/api/character/149","https://rickandmortyapi.com/api/character/151","https://rickandmortyapi.com/api/character/154","https://rickandmortyapi.com/api/character/166","https://rickandmortyapi.com/api/character/167","https://rickandmortyapi.com/api/character/170","https://rickandmortyapi.com/api/character/171","https://rickandmortyapi.com/api/character/172","https://rickandmortyapi.com/api/character/180","https://rickandmortyapi.com/api/character/181","https://rickandmortyapi.com/api/character/182","https://rickandmortyapi.com/api/character/185","https://rickandmortyapi.com/api/character/189","https://rickandmortyapi.com/api/character/190","https://rickandmortyapi.com/api/character/210","https://rickandmortyapi.com/api/character/217","https://rickandmortyapi.com/api/character/218","https://rickandmortyapi.com/api/character/219","https://rickandmortyapi.com/api/character/227","https://rickandmortyapi.com/api/character/230","https://rickandmortyapi.com/api/character/233","https://rickandmortyapi.com/api/character/234","https://rickandmortyapi.com/api/character/236","https://rickandmortyapi.com/api/character/237","https://rickandmortyapi.com/api/character/240","https://rickandmortyapi.com/api/character/241","https://rickandmortyapi.com/api/character/243","https://rickandmortyapi.com/api/character/244","https://rickandmortyapi.com/api/character/245","https://rickandmortyapi.com/api/character/248","https://rickandmortyapi.com/api/character/251","https://rickandmortyapi.com/api/character/255","https://rickandmortyapi.com/api/character/259","https://rickandmortyapi.com/api/character/262","https://rickandmortyapi.com/api/character/265","https://rickandmortyapi.com/api/character/272","https://rickandmortyapi.com/api/character/276","https://rickandmortyapi.com/api/character/280","https://rickandmortyapi.com/api/character/292","https://rickandmortyapi.com/api/character/293","https://rickandmortyapi.com/api/character/324","https://rickandmortyapi.com/api/character/326","https://rickandmortyapi.com/api/character/327","https://rickandmortyapi.com/api/character/332","https://rickandmortyapi.com/api/character/335","https://rickandmortyapi.com/api/character/341","https://rickandmortyapi.com/api/character/346","https://rickandmortyapi.com/api/character/347","https://rickandmortyapi.com/api/character/352","https://rickandmortyapi.com/api/character/353","https://rickandmortyapi.com/api/character/354","https://rickandmortyapi.com/api/character/357","https://rickandmortyapi.com/api/character/360","https://rickandmortyapi.com/api/character/361","https://rickandmortyapi.com/api/character/363","https://rickandmortyapi.com/api/character/365","https://rickandmortyapi.com/api/character/374","https://rickandmortyapi.com/api/character/377","https://rickandmortyapi.com/api/character/390","https://rickandmortyapi.com/api/character/391","https://rickandmortyapi.com/api/character/401","https://rickandmortyapi.com/api/character/402","https://rickandmortyapi.com/api/character/405","https://rickandmortyapi.com/api/character/423","https://rickandmortyapi.com/api/character/435","https://rickandmortyapi.com/api/character/437","https://rickandmortyapi.com/api/character/438","https://rickandmortyapi.com/api/character/439","https://rickandmortyapi.com/api/character/440","https://rickandmortyapi.com/api/character/452","https://rickandmortyapi.com/api/character/453","https://rickandmortyapi.com/api/character/467","https://rickandmortyapi.com/api/character/468","https://rickandmortyapi.com/api/character/469","https://rickandmortyapi.com/api/character/471","https://rickandmortyapi.com/api/character/492","https://rickandmortyapi.com/api/character/493","https://rickandmortyapi.com/api/character/497","https://rickandmortyapi.com/api/character/509","https://rickandmortyapi.com/api/character/510","https://rickandmortyapi.com/api/character/511","https://rickandmortyapi.com/api/character/512","https://rickandmortyapi.com/api/character/513","https://rickandmortyapi.com/api/character/514","https://rickandmortyapi.com/api/character/516","https://rickandmortyapi.com/api/character/517","https://rickandmortyapi.com/api/character/523","https://rickandmortyapi.com/api/character/524","https://rickandmortyapi.com/api/character/526","https://rickandmortyapi.com/api/character/534","https://rickandmortyapi.com/api/character/535","https://rickandmortyapi.com/api/character/536","https://rickandmortyapi.com/api/character/537","https://rickandmortyapi.com/api/character/538","https://rickandmortyapi.com/api/character/539","https://rickandmortyapi.com/api/character/540","https://rickandmortyapi.com/api/character/541","https://rickandmortyapi.com/api/character/561","https://rickandmortyapi.com/api/character/562","https://rickandmortyapi.com/api/character/564","https://rickandmortyapi.com/api/character/570","https://rickandmortyapi.com/api/character/575","https://rickandmortyapi.com/api/character/584","https://rickandmortyapi.com/api/character/585","https://rickandmortyapi.com/api/character/586","https://rickandmortyapi.com/api/character/588","https://rickandmortyapi.com/api/character/590","https://rickandmortyapi.com/api/character/591","https://rickandmortyapi.com/api/character/592","https://rickandmortyapi.com/api/character/667","https://rickandmortyapi.com/api/character/672","https://rickandmortyapi.com/api/character/680","https://rickandmortyapi.com/api/character/684","https://rickandmortyapi.com/api/character/686","https://rickandmortyapi.com/api/character/687","https://rickandmortyapi.com/api/character/688","https://rickandmortyapi.com/api/character/689","https://rickandmortyapi.com/api/character/690","https://rickandmortyapi.com/api/character/691","https://rickandmortyapi.com/api/character/692","https://rickandmortyapi.com/api/character/693","https://rickandmortyapi.com/api/character/694","https://rickandmortyapi.com/api/character/695","https://rickandmortyapi.com/api/character/696","https://rickandmortyapi.com/api/character/697","https://rickandmortyapi.com/api/character/698","https://rickandmortyapi.com/api/character/699","https://rickandmortyapi.com/api/character/700","https://rickandmortyapi.com/api/character/701","https://rickandmortyapi.com/api/character/702","https://rickandmortyapi.com/api/character/703","https://rickandmortyapi.com/api/character/704","https://rickandmortyapi.com/api/character/705","https://rickandmortyapi.com/api/character/706","https://rickandmortyapi.com/api/character/707","https://rickandmortyapi.com/api/character/708","https://rickandmortyapi.com/api/character/710","https://rickandmortyapi.com/api/character/712","https://rickandmortyapi.com/api/character/713","https://rickandmortyapi.com/api/character/714","https://rickandmortyapi.com/api/character/715","https://rickandmortyapi.com/api/character/716","https://rickandmortyapi.com/api/character/717","https://rickandmortyapi.com/api/character/719","https://rickandmortyapi.com/api/character/720","https://rickandmortyapi.com/api/character/721","https://rickandmortyapi.com/api/character/722","https://rickandmortyapi.com/api/character/723","https://rickandmortyapi.com/api/character/724","https://rickandmortyapi.com/api/character/725","https://rickandmortyapi.com/api/character/726","https://rickandmortyapi.com/api/character/727","https://rickandmortyapi.com/api/character/728","https://rickandmortyapi.com/api/character/729","https://rickandmortyapi.com/api/character/730","https://rickandmortyapi.com/api/character/732","https://rickandmortyapi.com/api/character/733","https://rickandmortyapi.com/api/character/734","https://rickandmortyapi.com/api/character/735","https://rickandmortyapi.com/api/character/737","https://rickandmortyapi.com/api/character/738","https://rickandmortyapi.com/api/character/739","https://rickandmortyapi.com/api/character/740","https://rickandmortyapi.com/api/character/741","https://rickandmortyapi.com/api/character/742","https://rickandmortyapi.com/api/character/753","https://rickandmortyapi.com/api/character/754","https://rickandmortyapi.com/api/character/755","https://rickandmortyapi.com/api/character/756","https://rickandmortyapi.com/api/character/757","https://rickandmortyapi.com/api/character/758","https://rickandmortyapi.com/api/character/759","https://rickandmortyapi.com/api/character/760","https://rickandmortyapi.com/api/character/761","https://rickandmortyapi.com/api/character/762","https://rickandmortyapi.com/api/character/763","https://rickandmortyapi.com/api/character/764","https://rickandmortyapi.com/api/character/765","https://rickandmortyapi.com/api/character/766","https://rickandmortyapi.com/api/character/767","https://rickandmortyapi.com/api/character/768","https://rickandmortyapi.com/api/character/769","https://rickandmortyapi.com/api/character/770","https://rickandmortyapi.com/api/character/771","https://rickandmortyapi.com/api/character/772","https://rickandmortyapi.com/api/character/773","https://rickandmortyapi.com/api/character/774","https://rickandmortyapi.com/api/character/775","https://rickandmortyapi.com/api/character/776","https://rickandmortyapi.com/api/character/777","https://rickandmortyapi.com/api/character/778","https://rickandmortyapi.com/api/character/781","https://rickandmortyapi.com/api/character/786","https://rickandmortyapi.com/api/character/788","https://rickandmortyapi.com/api/character/789","https://rickandmortyapi.com/api/character/790","https://rickandmortyapi.com/api/character/791","https://rickandmortyapi.com/api/character/203","https://rickandmortyapi.com/api/character/794","https://rickandmortyapi.com/api/character/800","https://rickandmortyapi.com/api/character/813","https://rickandmortyapi.com/api/character/821","https://rickandmortyapi.com/api/character/826"],"url":"https://rickandmortyapi.com/api/location/20","created":"2017-11-18T19:33:01.173Z"}]}'
+  recorded_at: Fri, 03 Dec 2021 19:53:32 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/location?page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - rickandmortyapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=259200
+      - public
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 01 Dec 2021 23:43:12 GMT
+      Etag:
+      - W/"1ab7-syQp0QNj8K18UoCdiqzk6i8idA8"
+      Expires:
+      - Sat, 04 Dec 2021 23:43:12 GMT
+      Server:
+      - Netlify
+      X-Nf-Request-Id:
+      - 01FP0XQTG13KMTTGYKCR4574Q3
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - Express
+      Content-Length:
+      - '1141'
+      Age:
+      - '159021'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpbmZvIjp7ImNvdW50IjoxMjYsInBhZ2VzIjo3LCJuZXh0IjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbj9wYWdlPTMiLCJwcmV2IjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbj9wYWdlPTEifSwicmVzdWx0cyI6W3siaWQiOjIxLCJuYW1lIjoiVGVzdGljbGUgTW9uc3RlciBEaW1lbnNpb24iLCJ0eXBlIjoiRGltZW5zaW9uIiwiZGltZW5zaW9uIjoiVGVzdGljbGUgTW9uc3RlciBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzQzNiJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzIxIiwiY3JlYXRlZCI6IjIwMTctMTEtMThUMTk6NDE6MDEuNjA1WiJ9LHsiaWQiOjIyLCJuYW1lIjoiU2lnbnVzIDUgRXhwYW5zZSIsInR5cGUiOiJ1bmtub3duIiwiZGltZW5zaW9uIjoiQ3JvbXVsb24gRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzI0IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvMzA5Il0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vMjIiLCJjcmVhdGVkIjoiMjAxNy0xMS0xOFQyMDoyNzoyNi4yMThaIn0seyJpZCI6MjMsIm5hbWUiOiJFYXJ0aCAoQy01MDBBKSIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJEaW1lbnNpb24gQy01MDBBIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzM3IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvOTEiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci8xNzYiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci8xODMiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci8xOTUiXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi8yMyIsImNyZWF0ZWQiOiIyMDE3LTExLTE4VDIwOjU4OjE1LjE3OFoifSx7ImlkIjoyNCwibmFtZSI6IlJpY2sncyBCYXR0ZXJ5IE1pY3JvdmVyc2UiLCJ0eXBlIjoiTWljcm92ZXJzZSIsImRpbWVuc2lvbiI6IlJlcGxhY2VtZW50IERpbWVuc2lvbiIsInJlc2lkZW50cyI6WyJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci82NSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzM4OCJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzI0IiwiY3JlYXRlZCI6IjIwMTctMTEtMzBUMTE6MDI6NDEuNzIyWiJ9LHsiaWQiOjI1LCJuYW1lIjoiVGhlIE1lbmFnZXJpZSIsInR5cGUiOiJNZW5hZ2VyaWUiLCJkaW1lbnNpb24iOiJ1bmtub3duIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzY3IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDkwIiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDkxIl0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vMjUiLCJjcmVhdGVkIjoiMjAxNy0xMS0zMFQxMToxMzo0Ni42OTdaIn0seyJpZCI6MjYsIm5hbWUiOiJFYXJ0aCAoSy04MykiLCJ0eXBlIjoiUGxhbmV0IiwiZGltZW5zaW9uIjoiRGltZW5zaW9uIEstODMiLCJyZXNpZGVudHMiOltdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzI2IiwiY3JlYXRlZCI6IjIwMTctMTEtMzBUMTE6NDE6MTEuNDUyWiJ9LHsiaWQiOjI3LCJuYW1lIjoiSGlkZW91dCBQbGFuZXQiLCJ0eXBlIjoiUGxhbmV0IiwiZGltZW5zaW9uIjoidW5rbm93biIsInJlc2lkZW50cyI6WyJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci83OSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzg0Il0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vMjciLCJjcmVhdGVkIjoiMjAxNy0xMS0zMFQxNDoxODoxNi44NjlaIn0seyJpZCI6MjgsIm5hbWUiOiJVbml0eSdzIFBsYW5ldCIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJSZXBsYWNlbWVudCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvOTAiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci8xODgiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci8zMDEiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci8zMzYiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci8zNTUiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci8zNzIiXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi8yOCIsImNyZWF0ZWQiOiIyMDE3LTExLTMwVDE0OjI4OjU0LjU5MVoifSx7ImlkIjoyOSwibmFtZSI6IkRvcmlhbiA1IiwidHlwZSI6IlBsYW5ldCIsImRpbWVuc2lvbiI6IlJlcGxhY2VtZW50IERpbWVuc2lvbiIsInJlc2lkZW50cyI6WyJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci85MyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzEwNCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzE5OCJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzI5IiwiY3JlYXRlZCI6IjIwMTctMTItMDFUMTE6MzY6MTYuNDYzWiJ9LHsiaWQiOjMwLCJuYW1lIjoiRWFydGggKFVua25vd24gZGltZW5zaW9uKSIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJ1bmtub3duIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzgyMiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzgyMyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzgyNCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzgyNSJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzMwIiwiY3JlYXRlZCI6IjIwMTctMTItMDFUMTE6NDk6NDMuOTIzWiJ9LHsiaWQiOjMxLCJuYW1lIjoiRWFydGggKEoxOc62NykiLCJ0eXBlIjoiUGxhbmV0IiwiZGltZW5zaW9uIjoiRGltZW5zaW9uIEoxOc62NyIsInJlc2lkZW50cyI6W10sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vMzEiLCJjcmVhdGVkIjoiMjAxNy0xMi0wMVQxMjoyOToyNy45NzZaIn0seyJpZCI6MzIsIm5hbWUiOiJSb3k6IEEgTGlmZSBXZWxsIExpdmVkIiwidHlwZSI6IkdhbWUiLCJkaW1lbnNpb24iOiJSZXBsYWNlbWVudCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvMTA2IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvMzkzIiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDQ5IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDUwIiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDUxIl0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vMzIiLCJjcmVhdGVkIjoiMjAxNy0xMi0yNlQxMjo0Njo0OC43OThaIn0seyJpZCI6MzMsIm5hbWUiOiJFcmljIFN0b2x0eiBNYXNrIEVhcnRoIiwidHlwZSI6IlBsYW5ldCIsImRpbWVuc2lvbiI6IkVyaWMgU3RvbHR6IE1hc2sgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi8zMyIsImNyZWF0ZWQiOiIyMDE3LTEyLTI2VDEzOjQzOjI5LjI5MVoifSx7ImlkIjozNCwibmFtZSI6IkVhcnRoIChFdmlsIFJpY2sncyBUYXJnZXQgRGltZW5zaW9uKSIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJFdmlsIFJpY2sncyBUYXJnZXQgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzM5IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvMTc3IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvMjMyIiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvMjkwIiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvMzM5Il0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vMzQiLCJjcmVhdGVkIjoiMjAxNy0xMi0yNlQxNTozNToyMC40OTlaIn0seyJpZCI6MzUsIm5hbWUiOiJQbGFuZXQgU3F1YW5jaCIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJSZXBsYWNlbWVudCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDciLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci83NSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzEwMiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzE5NCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzE5OSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzI1NiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzI2MSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzMwOCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzMxMSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzMzMSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzM3OSJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzM1IiwiY3JlYXRlZCI6IjIwMTctMTItMjZUMTc6NTE6NTMuMDE4WiJ9LHsiaWQiOjM2LCJuYW1lIjoiR2xhYWdhYmxhYWdhIiwidHlwZSI6IlBsYW5ldCIsImRpbWVuc2lvbiI6InVua25vd24iLCJyZXNpZGVudHMiOltdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzM2IiwiY3JlYXRlZCI6IjIwMTctMTItMjZUMjA6MzA6NDUuOTM5WiJ9LHsiaWQiOjM3LCJuYW1lIjoiUmVzb3J0IFBsYW5ldCIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJ1bmtub3duIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzE0MiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzI5NiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzI5NyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzMxOSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzM2OSJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzM3IiwiY3JlYXRlZCI6IjIwMTctMTItMjdUMjA6MDI6NTkuMDA1WiJ9LHsiaWQiOjM4LCJuYW1lIjoiSW50ZXJkaW1lbnNpb25hbCBDdXN0b21zIiwidHlwZSI6IkN1c3RvbXMiLCJkaW1lbnNpb24iOiJ1bmtub3duIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzE0NCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzE1OCJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzM4IiwiY3JlYXRlZCI6IjIwMTctMTItMjlUMTA6Mzc6NDguMjgxWiJ9LHsiaWQiOjM5LCJuYW1lIjoiR2FsYWN0aWMgRmVkZXJhdGlvbiBQcmlzb24iLCJ0eXBlIjoiU3BhY2Ugc3RhdGlvbiIsImRpbWVuc2lvbiI6InVua25vd24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvMTUwIl0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vMzkiLCJjcmVhdGVkIjoiMjAxNy0xMi0yOVQxMjowMjozMy41MTNaIn0seyJpZCI6NDAsIm5hbWUiOiJHYXpvcnBhem9ycCIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJ1bmtub3duIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzE2OCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzIxMSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzM3NiJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzQwIiwiY3JlYXRlZCI6IjIwMTctMTItMjlUMTI6MzE6NTAuMzEzWiJ9XX0=
+  recorded_at: Fri, 03 Dec 2021 19:53:32 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/location?page=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - rickandmortyapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=259200
+      - public
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 03 Dec 2021 19:53:33 GMT
+      Etag:
+      - W/"2072-aURTzfBOfpLEpDVnEmcEgc1737w"
+      Expires:
+      - Mon, 06 Dec 2021 19:53:33 GMT
+      Server:
+      - Netlify
+      Vary:
+      - Accept-Encoding
+      X-Nf-Request-Id:
+      - 01FP0XQTG1ZM1YCJEGXNCCRCF4
+      X-Powered-By:
+      - Express
+      Age:
+      - '1'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpbmZvIjp7ImNvdW50IjoxMjYsInBhZ2VzIjo3LCJuZXh0IjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbj9wYWdlPTYiLCJwcmV2IjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbj9wYWdlPTQifSwicmVzdWx0cyI6W3siaWQiOjgxLCJuYW1lIjoiRWFydGggKEZhc2Npc3QgVGVkZHkgQmVhciBEaW1lbnNpb24pIiwidHlwZSI6IlBsYW5ldCIsImRpbWVuc2lvbiI6IkZhc2Npc3QgVGVkZHkgQmVhciBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTA3IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTA4Il0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vODEiLCJjcmVhdGVkIjoiMjAyMC0wNS0wMlQxMjoxNjoxOC4yMjRaIn0seyJpZCI6ODIsIm5hbWUiOiJFYXJ0aCAoV2FzcCBEaW1lbnNpb24pIiwidHlwZSI6IlBsYW5ldCIsImRpbWVuc2lvbiI6Ildhc3AgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzUxNSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzUxOCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzUxOSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzUyMCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzUyMSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzUyMiJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzgyIiwiY3JlYXRlZCI6IjIwMjAtMDUtMDJUMTI6MzQ6MTkuNjU2WiJ9LHsiaWQiOjgzLCJuYW1lIjoiTW9ub2dhdHJvbiBNb3RoZXJzaGlwIiwidHlwZSI6IlNwYWNlIHN0YXRpb24iLCJkaW1lbnNpb24iOiJSZXBsYWNlbWVudCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTI1IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTI3IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTI4IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTMzIl0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vODMiLCJjcmVhdGVkIjoiMjAyMC0wNS0wMlQxMzoxMDo0Mi4yOTlaIn0seyJpZCI6ODQsIm5hbWUiOiJHb3Jnb24gUXVhZHJhbnQiLCJ0eXBlIjoiUXVhZHJhbnQiLCJkaW1lbnNpb24iOiJSZXBsYWNlbWVudCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTQzIl0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vODQiLCJjcmVhdGVkIjoiMjAyMC0wNS0wMlQxMzoyMTo0OS42NjNaIn0seyJpZCI6ODUsIm5hbWUiOiJNaWRsYW5kIFF1YXNhciIsInR5cGUiOiJRdWFzYXIiLCJkaW1lbnNpb24iOiJSZXBsYWNlbWVudCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTI5IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTMwIl0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vODUiLCJjcmVhdGVkIjoiMjAyMC0wNS0wMlQxMzozMDo0MS43MzJaIn0seyJpZCI6ODYsIm5hbWUiOiJNb3VudCBTcGFjZSBFdmVyZXN0IiwidHlwZSI6Ik1vdW50IiwiZGltZW5zaW9uIjoiUmVwbGFjZW1lbnQgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzUzMSJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzg2IiwiY3JlYXRlZCI6IjIwMjAtMDUtMDJUMTM6MzQ6NDUuMzMyWiJ9LHsiaWQiOjg3LCJuYW1lIjoiR2xvYmFmbHluIiwidHlwZSI6IkxpcXVpZCIsImRpbWVuc2lvbiI6IlJlcGxhY2VtZW50IERpbWVuc2lvbiIsInJlc2lkZW50cyI6WyJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci81MzIiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci81NDIiXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi84NyIsImNyZWF0ZWQiOiIyMDIwLTA1LTAyVDEzOjQ0OjU0LjY4OFoifSx7ImlkIjo4OCwibmFtZSI6IkhlaXN0LUNvbiIsInR5cGUiOiJDb252ZW50aW9uIiwiZGltZW5zaW9uIjoiUmVwbGFjZW1lbnQgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU0NCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU0NSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU0NiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU0NyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU0OCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU0OSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU1MCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU1MSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU1MiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU1MyJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzg4IiwiY3JlYXRlZCI6IjIwMjAtMDUtMDdUMDk6MDc6NDEuODE2WiJ9LHsiaWQiOjg5LCJuYW1lIjoiSGVpc3RvdHJvbiBCYXNlIiwidHlwZSI6IlNwYWNlIHN0YXRpb24iLCJkaW1lbnNpb24iOiJSZXBsYWNlbWVudCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTU0IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTU1IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTU2IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTU3IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTU4Il0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vODkiLCJjcmVhdGVkIjoiMjAyMC0wNS0wN1QxMDoxMTo0MC42MzJaIn0seyJpZCI6OTAsIm5hbWUiOiJNb3VudCBPbHltcHVzIiwidHlwZSI6Ik1vdW50IiwiZGltZW5zaW9uIjoiUmVwbGFjZW1lbnQgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi85MCIsImNyZWF0ZWQiOiIyMDIwLTA1LTA3VDEwOjE5OjM0LjIwNloifSx7ImlkIjo5MSwibmFtZSI6IlBsaXR6dmlsbGUgTW9udGFuYSIsInR5cGUiOiJXb29kcyIsImRpbWVuc2lvbiI6IlJlcGxhY2VtZW50IERpbWVuc2lvbiIsInJlc2lkZW50cyI6W10sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vOTEiLCJjcmVhdGVkIjoiMjAyMC0wNS0wN1QxMDoyMzowNy41OTVaIn0seyJpZCI6OTIsIm5hbWUiOiJFYXJ0aCAoVHVzayBEaW1lbnNpb24pIiwidHlwZSI6IlBsYW5ldCIsImRpbWVuc2lvbiI6IlR1c2sgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi85MiIsImNyZWF0ZWQiOiIyMDIwLTA1LTA3VDEwOjI1OjExLjk1MFoifSx7ImlkIjo5MywibmFtZSI6IkdyYW11ZmxhY2siLCJ0eXBlIjoiUGxhbmV0IiwiZGltZW5zaW9uIjoiUmVwbGFjZW1lbnQgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU1OSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU2MCJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzkzIiwiY3JlYXRlZCI6IjIwMjAtMDUtMDdUMTA6MjY6MzUuNTkxWiJ9LHsiaWQiOjk0LCJuYW1lIjoiRHJheWdvbiIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJNYWdpYyBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTYzIiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTY1IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTY2IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTY3IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTY4IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTY5Il0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vOTQiLCJjcmVhdGVkIjoiMjAyMC0wNS0wN1QxMTozMDo0OS45NjNaIn0seyJpZCI6OTUsIm5hbWUiOiJOZXcgSW1wcm92ZWQgR2FsYWN0aWMgRmVkZXJhdGlvbiBRdWFydGVycyIsInR5cGUiOiJTcGFjZSBzdGF0aW9uIiwiZGltZW5zaW9uIjoiUmVwbGFjZW1lbnQgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi85NSIsImNyZWF0ZWQiOiIyMDIwLTA4LTA1VDEyOjQyOjU4LjA0OFoifSx7ImlkIjo5NiwibmFtZSI6IlN0b3J5IFRyYWluIiwidHlwZSI6IkRpZWdlc2lzIiwiZGltZW5zaW9uIjoiUmVwbGFjZW1lbnQgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU5NyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU5OCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU5OSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYwMCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYwMSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYwNiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYwNyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYxMSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYxMiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYxNSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYxNiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYxNyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYxOCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYxOSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYyMCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYyMiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYyMyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYyNCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYyNiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYyNyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYzMCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYzMSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYzMiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYzMyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYzNCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYzNyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYzOCJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzk2IiwiY3JlYXRlZCI6IjIwMjAtMDgtMDZUMDk6NDc6MjguMjE2WiJ9LHsiaWQiOjk3LCJuYW1lIjoiTm9uLURpZWdldGljIEFsdGVybmF0aXZlIFJlYWxpdHkiLCJ0eXBlIjoiTm9uLURpZWdldGljIEFsdGVybmF0aXZlIFJlYWxpdHkiLCJkaW1lbnNpb24iOiJSZXBsYWNlbWVudCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTkzIl0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vOTciLCJjcmVhdGVkIjoiMjAyMC0wOC0wNlQwOTo1MDoxMy43NzFaIn0seyJpZCI6OTgsIm5hbWUiOiJUaWNrZXRzIFBsZWFzZSBHdXkgTmlnaHRtYXJlIiwidHlwZSI6Ik5pZ2h0bWFyZSIsImRpbWVuc2lvbiI6IlJlcGxhY2VtZW50IERpbWVuc2lvbiIsInJlc2lkZW50cyI6WyJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci81OTQiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci81OTUiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci81OTYiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci82MDUiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci82MDkiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci82MTAiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci82MzkiXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi85OCIsImNyZWF0ZWQiOiIyMDIwLTA4LTA2VDA5OjUyOjQzLjU4MFoifSx7ImlkIjo5OSwibmFtZSI6Ik1vcnR54oCZcyBTdG9yeSIsInR5cGUiOiJEaWVnZXNpcyIsImRpbWVuc2lvbiI6IlJlcGxhY2VtZW50IERpbWVuc2lvbiIsInJlc2lkZW50cyI6WyJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci82MDIiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci82MDQiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci82MTMiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci82MjgiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci82MjkiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci82MjEiXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi85OSIsImNyZWF0ZWQiOiIyMDIwLTA4LTA2VDExOjQyOjQ2LjA1NFoifSx7ImlkIjoxMDAsIm5hbWUiOiJSaWNrc+KAmXMgU3RvcnkiLCJ0eXBlIjoiRGllZ2VzaXMiLCJkaW1lbnNpb24iOiJSZXBsYWNlbWVudCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNjAzIiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNjE0IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNjI1IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNjM1IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNjM2IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNjA4Il0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vMTAwIiwiY3JlYXRlZCI6IjIwMjAtMDgtMDZUMTE6NDU6MDguNzgyWiJ9XX0=
+  recorded_at: Fri, 03 Dec 2021 19:53:33 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/location?page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - rickandmortyapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=259200
+      - public
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 03 Dec 2021 19:53:33 GMT
+      Etag:
+      - W/"16ad-Wnii7EKBTj4QhWNR5WGGmKBjUxY"
+      Expires:
+      - Mon, 06 Dec 2021 19:53:33 GMT
+      Server:
+      - Netlify
+      Vary:
+      - Accept-Encoding
+      X-Nf-Request-Id:
+      - 01FP0XQTG1CDA991TKEM5MVBY4
+      X-Powered-By:
+      - Express
+      Age:
+      - '1'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"info":{"count":126,"pages":7,"next":"https://rickandmortyapi.com/api/location?page=4","prev":"https://rickandmortyapi.com/api/location?page=2"},"results":[{"id":41,"name":"Hamster
+        in Butt World","type":"Planet","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/153"],"url":"https://rickandmortyapi.com/api/location/41","created":"2017-12-29T15:27:54.209Z"},{"id":42,"name":"Earth
+        (Giant Telepathic Spiders Dimension)","type":"Planet","dimension":"Giant Telepathic
+        Spiders Dimension","residents":["https://rickandmortyapi.com/api/character/159","https://rickandmortyapi.com/api/character/160"],"url":"https://rickandmortyapi.com/api/location/42","created":"2017-12-29T16:03:28.720Z"},{"id":43,"name":"Alphabetrium","type":"Planet","dimension":"Replacement
+        Dimension","residents":["https://rickandmortyapi.com/api/character/161","https://rickandmortyapi.com/api/character/162","https://rickandmortyapi.com/api/character/212","https://rickandmortyapi.com/api/character/213","https://rickandmortyapi.com/api/character/253"],"url":"https://rickandmortyapi.com/api/location/43","created":"2017-12-29T16:08:47.694Z"},{"id":44,"name":"Jerryboree","type":"Daycare","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/174","https://rickandmortyapi.com/api/character/257","https://rickandmortyapi.com/api/character/441","https://rickandmortyapi.com/api/character/442","https://rickandmortyapi.com/api/character/443","https://rickandmortyapi.com/api/character/444","https://rickandmortyapi.com/api/character/445","https://rickandmortyapi.com/api/character/446"],"url":"https://rickandmortyapi.com/api/location/44","created":"2017-12-29T17:50:19.947Z"},{"id":45,"name":"Krootabulon","type":"Planet","dimension":"Replacement
+        Dimension","residents":[],"url":"https://rickandmortyapi.com/api/location/45","created":"2017-12-29T19:26:06.827Z"},{"id":46,"name":"Zigerion''s
+        Base","type":"Space station","dimension":"Dimension C-137","residents":["https://rickandmortyapi.com/api/character/87","https://rickandmortyapi.com/api/character/191","https://rickandmortyapi.com/api/character/270","https://rickandmortyapi.com/api/character/337"],"url":"https://rickandmortyapi.com/api/location/46","created":"2017-12-29T19:40:07.748Z"},{"id":47,"name":"Pluto","type":"Dwarf
+        planet (Celestial Dwarf)","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/192","https://rickandmortyapi.com/api/character/307","https://rickandmortyapi.com/api/character/419","https://rickandmortyapi.com/api/character/420","https://rickandmortyapi.com/api/character/421","https://rickandmortyapi.com/api/character/422"],"url":"https://rickandmortyapi.com/api/location/47","created":"2017-12-29T19:49:29.228Z"},{"id":48,"name":"Fantasy
+        World","type":"Planet","dimension":"Fantasy Dimension","residents":["https://rickandmortyapi.com/api/character/41","https://rickandmortyapi.com/api/character/193","https://rickandmortyapi.com/api/character/238","https://rickandmortyapi.com/api/character/333"],"url":"https://rickandmortyapi.com/api/location/48","created":"2017-12-29T19:55:54.672Z"},{"id":49,"name":"Zeep
+        Xanflorp''s Miniverse","type":"Miniverse","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/348"],"url":"https://rickandmortyapi.com/api/location/49","created":"2017-12-29T19:58:44.675Z"},{"id":50,"name":"Kyle''s
+        Teenyverse","type":"Teenyverse","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/197","https://rickandmortyapi.com/api/character/364"],"url":"https://rickandmortyapi.com/api/location/50","created":"2017-12-30T12:36:19.730Z"},{"id":51,"name":"Larva
+        Alien''s Planet","type":"Planet","dimension":"Unknown dimension","residents":[],"url":"https://rickandmortyapi.com/api/location/51","created":"2017-12-30T12:48:19.312Z"},{"id":52,"name":"Earth
+        (K-22)","type":"Planet","dimension":"Dimension K-22","residents":[],"url":"https://rickandmortyapi.com/api/location/52","created":"2017-12-30T16:33:49.507Z"},{"id":53,"name":"Mr.
+        Meeseeks Box","type":"Box","dimension":"unknown","residents":[],"url":"https://rickandmortyapi.com/api/location/53","created":"2017-12-30T17:52:12.217Z"},{"id":54,"name":"Vindicator''s
+        Base","type":"Spacecraft","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/252"],"url":"https://rickandmortyapi.com/api/location/54","created":"2017-12-31T12:57:37.824Z"},{"id":55,"name":"Pawn
+        Shop Planet","type":"Planet","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/258"],"url":"https://rickandmortyapi.com/api/location/55","created":"2017-12-31T13:30:33.579Z"},{"id":56,"name":"Mega
+        Gargantuan Kingdom","type":"Microverse","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/269"],"url":"https://rickandmortyapi.com/api/location/56","created":"2017-12-31T14:01:44.921Z"},{"id":57,"name":"Gear
+        World","type":"Planet","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/282","https://rickandmortyapi.com/api/character/447","https://rickandmortyapi.com/api/character/448"],"url":"https://rickandmortyapi.com/api/location/57","created":"2017-12-31T19:21:17.276Z"},{"id":58,"name":"Earth
+        (D-99)","type":"Planet","dimension":"Dimension D-99","residents":[],"url":"https://rickandmortyapi.com/api/location/58","created":"2017-12-31T19:49:55.109Z"},{"id":59,"name":"Earth
+        (D716)","type":"Planet","dimension":"Dimension D716","residents":[],"url":"https://rickandmortyapi.com/api/location/59","created":"2017-12-31T19:51:33.170Z"},{"id":60,"name":"Earth
+        (D716-B)","type":"Planet","dimension":"Dimension D716-B","residents":[],"url":"https://rickandmortyapi.com/api/location/60","created":"2017-12-31T19:55:25.026Z"}]}'
+  recorded_at: Fri, 03 Dec 2021 19:53:33 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/location?page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - rickandmortyapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=259200
+      - public
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 03 Dec 2021 19:53:33 GMT
+      Etag:
+      - W/"1738-8lWWNBqopXq8BxvNCeRSbgUIj14"
+      Expires:
+      - Mon, 06 Dec 2021 19:53:33 GMT
+      Server:
+      - Netlify
+      X-Nf-Request-Id:
+      - 01FP0XQTG7ZM316S211D6EKS92
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - Express
+      Content-Length:
+      - '1046'
+      Age:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpbmZvIjp7ImNvdW50IjoxMjYsInBhZ2VzIjo3LCJuZXh0IjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbj9wYWdlPTUiLCJwcmV2IjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbj9wYWdlPTMifSwicmVzdWx0cyI6W3siaWQiOjYxLCJuYW1lIjoiRWFydGggKEQ3MTYtQykiLCJ0eXBlIjoiUGxhbmV0IiwiZGltZW5zaW9uIjoiRGltZW5zaW9uIEQ3MTYtQyIsInJlc2lkZW50cyI6W10sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vNjEiLCJjcmVhdGVkIjoiMjAxNy0xMi0zMVQxOTo1NzozNi40NjhaIn0seyJpZCI6NjIsIm5hbWUiOiJFYXJ0aCAoSi0yMikiLCJ0eXBlIjoiUGxhbmV0IiwiZGltZW5zaW9uIjoiRGltZW5zaW9uIEotMjIiLCJyZXNpZGVudHMiOltdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzYyIiwiY3JlYXRlZCI6IjIwMTctMTItMzFUMjA6MTY6NTIuMjYzWiJ9LHsiaWQiOjYzLCJuYW1lIjoiRnJvb3B5bGFuZCIsInR5cGUiOiJBcnRpZmljaWFsbHkgZ2VuZXJhdGVkIHdvcmxkIiwiZGltZW5zaW9uIjoiUmVwbGFjZW1lbnQgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzM1MCJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzYzIiwiY3JlYXRlZCI6IjIwMTgtMDEtMTBUMTc6NTU6MTQuMjI3WiJ9LHsiaWQiOjY0LCJuYW1lIjoiRGV0b3hpZmllciIsInR5cGUiOiJNYWNoaW5lIiwiZGltZW5zaW9uIjoiUmVwbGFjZW1lbnQgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi82NCIsImNyZWF0ZWQiOiIyMDE4LTAxLTEwVDE4OjIwOjQxLjYyN1oifSx7ImlkIjo2NSwibmFtZSI6IlRydW5rIFdvcmxkIiwidHlwZSI6IlBsYW5ldCIsImRpbWVuc2lvbiI6InVua25vd24iLCJyZXNpZGVudHMiOltdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzY1IiwiY3JlYXRlZCI6IjIwMTgtMDEtMTBUMTk6MDM6MTMuNDg0WiJ9LHsiaWQiOjY2LCJuYW1lIjoiUGxvcHN0YXIiLCJ0eXBlIjoiUGxhbmV0IiwiZGltZW5zaW9uIjoidW5rbm93biIsInJlc2lkZW50cyI6WyJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci8zNzEiXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi82NiIsImNyZWF0ZWQiOiIyMDE4LTAxLTEwVDE5OjU2OjU3LjcxN1oifSx7ImlkIjo2NywibmFtZSI6IkJsaXBzIGFuZCBDaGl0eiIsInR5cGUiOiJBcmNhZGUiLCJkaW1lbnNpb24iOiJSZXBsYWNlbWVudCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOltdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzY3IiwiY3JlYXRlZCI6IjIwMTgtMDEtMjFUMTk6MDE6MTkuNDk2WiJ9LHsiaWQiOjY4LCJuYW1lIjoiR2lydm9uZXNrIiwidHlwZSI6InVua25vd24iLCJkaW1lbnNpb24iOiJ1bmtub3duIiwicmVzaWRlbnRzIjpbXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi82OCIsImNyZWF0ZWQiOiIyMDE4LTA0LTE1VDE2OjM5OjM4LjU5OFoifSx7ImlkIjo2OSwibmFtZSI6IkVhcnRoIChDLTM1KSIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJEaW1lbnNpb24gQy0zNSIsInJlc2lkZW50cyI6W10sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vNjkiLCJjcmVhdGVkIjoiMjAxOC0wNC0xNVQxNjo1NTo1Ni4yMTJaIn0seyJpZCI6NzAsIm5hbWUiOiJTbnVmZmxlcycgRHJlYW0iLCJ0eXBlIjoiRHJlYW0iLCJkaW1lbnNpb24iOiJEaW1lbnNpb24gQy0xMzciLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvMzk3IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvMzk4Il0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vNzAiLCJjcmVhdGVkIjoiMjAxOC0wNC0xNVQxNzoxMzo1NC4wNzFaIn0seyJpZCI6NzEsIm5hbWUiOiJFYXJ0aCAoUGl6emEgRGltZW5zaW9uKSIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJQaXp6YSBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDI0IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDI1Il0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vNzEiLCJjcmVhdGVkIjoiMjAxOC0wNC0xNVQxNzo1NTowNC40NzhaIn0seyJpZCI6NzIsIm5hbWUiOiJFYXJ0aCAoUGhvbmUgRGltZW5zaW9uKSIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJQaG9uZSBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDA0IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDI3IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDI4Il0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vNzIiLCJjcmVhdGVkIjoiMjAxOC0wNC0xNVQxNzo1NjowOS4xMTdaIn0seyJpZCI6NzMsIm5hbWUiOiJHcmVhc3kgR3JhbmRtYSBXb3JsZCIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJ1bmtub3duIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzQyNiJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzczIiwiY3JlYXRlZCI6IjIwMTgtMDQtMTZUMjE6NTA6MjAuMTQ0WiJ9LHsiaWQiOjc0LCJuYW1lIjoiRWFydGggKENoYWlyIERpbWVuc2lvbikiLCJ0eXBlIjoiUGxhbmV0IiwiZGltZW5zaW9uIjoiQ2hhaXIgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzQyOSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzQzMCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzQzMSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzQzMiJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzc0IiwiY3JlYXRlZCI6IjIwMTgtMDQtMTZUMjE6NTg6MjQuMjkyWiJ9LHsiaWQiOjc1LCJuYW1lIjoiw4FyYm9sZXMgTWVudGlyb3NvcyIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJ1bmtub3duIiwicmVzaWRlbnRzIjpbXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi83NSIsImNyZWF0ZWQiOiIyMDE4LTA1LTAxVDE1OjI3OjIwLjI1MVoifSx7ImlkIjo3NiwibmFtZSI6IkFsaWVuIERheSBTcGEiLCJ0eXBlIjoiU3BhIiwiZGltZW5zaW9uIjoidW5rbm93biIsInJlc2lkZW50cyI6WyJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci80NzAiXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi83NiIsImNyZWF0ZWQiOiIyMDE4LTA1LTIyVDIwOjQ5OjAxLjgyMFoifSx7ImlkIjo3NywibmFtZSI6IkVhcnRoIChGYXNjaXN0IERpbWVuc2lvbikiLCJ0eXBlIjoiUGxhbmV0IiwiZGltZW5zaW9uIjoiRmFzY2lzdCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvMjQyIiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDk4IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDk5IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTAwIiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTAxIiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTAyIl0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vNzciLCJjcmVhdGVkIjoiMjAyMC0wNS0wMlQwOTozOTo0OS4xNThaIn0seyJpZCI6NzgsIm5hbWUiOiJTbmFrZSBQbGFuZXQiLCJ0eXBlIjoiUGxhbmV0IiwiZGltZW5zaW9uIjoiUmVwbGFjZW1lbnQgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzMxMyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU3MSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU3MiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU3MyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU3NCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU3NiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU3NyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU3OCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU3OSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU4MCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU4MSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU4MiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU4MyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU4NyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU4OSJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzc4IiwiY3JlYXRlZCI6IjIwMjAtMDUtMDJUMDk6NDc6MzkuNzU0WiJ9LHsiaWQiOjc5LCJuYW1lIjoiRm9yYm9kdWxvbiBQcmltZSIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJSZXBsYWNlbWVudCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDk0IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDk1IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDk2Il0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vNzkiLCJjcmVhdGVkIjoiMjAyMC0wNS0wMlQxMDowNDowNS41MDlaIn0seyJpZCI6ODAsIm5hbWUiOiJFYXJ0aCAoRmFzY2lzdCBTaHJpbXAgRGltZW5zaW9uKSIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJGYXNjaXN0IFNocmltcCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTAzIiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTA0IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTA1IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTA2Il0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vODAiLCJjcmVhdGVkIjoiMjAyMC0wNS0wMlQxMTo1MjozNS4xNTZaIn1dfQ==
+  recorded_at: Fri, 03 Dec 2021 19:53:33 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/location?page=7
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - rickandmortyapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=259200
+      - public
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 03 Dec 2021 19:53:33 GMT
+      Etag:
+      - W/"872-yh6IYZdvbENDtBpUKZWC+Zu1kpc"
+      Expires:
+      - Mon, 06 Dec 2021 19:53:33 GMT
+      Server:
+      - Netlify
+      X-Nf-Request-Id:
+      - 01FP0XQTG7RDVA9E2NEY7FC31N
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - Express
+      Content-Length:
+      - '479'
+      Age:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"info":{"count":126,"pages":7,"next":null,"prev":"https://rickandmortyapi.com/api/location?page=6"},"results":[{"id":121,"name":"Rick''s
+        Consciousness","type":"Consciousness","dimension":"Replacement Dimension","residents":[],"url":"https://rickandmortyapi.com/api/location/121","created":"2021-10-25T09:12:23.715Z"},{"id":122,"name":"Avian
+        Planet","type":"Planet","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/792","https://rickandmortyapi.com/api/character/793"],"url":"https://rickandmortyapi.com/api/location/122","created":"2021-10-26T12:19:52.957Z"},{"id":123,"name":"Normal
+        Size Bug Dimension","type":"Dimension","dimension":"","residents":["https://rickandmortyapi.com/api/character/795","https://rickandmortyapi.com/api/character/796"],"url":"https://rickandmortyapi.com/api/location/123","created":"2021-11-02T13:03:21.307Z"},{"id":124,"name":"Slartivart","type":"Planet","dimension":"Replacement
+        Dimension","residents":["https://rickandmortyapi.com/api/character/797"],"url":"https://rickandmortyapi.com/api/location/124","created":"2021-11-02T13:07:27.619Z"},{"id":125,"name":"Rick
+        and Two Crows Planet","type":"Planet","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/809","https://rickandmortyapi.com/api/character/808","https://rickandmortyapi.com/api/character/787"],"url":"https://rickandmortyapi.com/api/location/125","created":"2021-11-02T13:50:55.588Z"},{"id":126,"name":"Rick''s
+        Memories","type":"Memory","dimension":"","residents":["https://rickandmortyapi.com/api/character/815","https://rickandmortyapi.com/api/character/814","https://rickandmortyapi.com/api/character/807","https://rickandmortyapi.com/api/character/94","https://rickandmortyapi.com/api/character/779","https://rickandmortyapi.com/api/character/816","https://rickandmortyapi.com/api/character/817","https://rickandmortyapi.com/api/character/274","https://rickandmortyapi.com/api/character/389","https://rickandmortyapi.com/api/character/215","https://rickandmortyapi.com/api/character/294"],"url":"https://rickandmortyapi.com/api/location/126","created":"2021-11-02T15:18:57.987Z"}]}'
+  recorded_at: Fri, 03 Dec 2021 19:53:33 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/location?page=6
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - rickandmortyapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=259200
+      - public
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 03 Dec 2021 19:53:33 GMT
+      Etag:
+      - W/"1b53-TTSTDdWFX+PoXhPzk0248RRECGk"
+      Expires:
+      - Mon, 06 Dec 2021 19:53:33 GMT
+      Server:
+      - Netlify
+      X-Nf-Request-Id:
+      - 01FP0XQTG7HJ5F18RTA2J6QADR
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - Express
+      Content-Length:
+      - '1106'
+      Age:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"info":{"count":126,"pages":7,"next":"https://rickandmortyapi.com/api/location?page=7","prev":"https://rickandmortyapi.com/api/location?page=5"},"results":[{"id":101,"name":"Glorzo
+        Asteroid","type":"Asteroid","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/640","https://rickandmortyapi.com/api/character/641","https://rickandmortyapi.com/api/character/642","https://rickandmortyapi.com/api/character/643","https://rickandmortyapi.com/api/character/644","https://rickandmortyapi.com/api/character/645","https://rickandmortyapi.com/api/character/646","https://rickandmortyapi.com/api/character/647"],"url":"https://rickandmortyapi.com/api/location/101","created":"2020-08-07T11:28:46.897Z"},{"id":102,"name":"Alien
+        Acid Plant","type":"Acid Plant","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/648","https://rickandmortyapi.com/api/character/649","https://rickandmortyapi.com/api/character/650","https://rickandmortyapi.com/api/character/651"],"url":"https://rickandmortyapi.com/api/location/102","created":"2020-08-13T10:08:12.986Z"},{"id":103,"name":"Merged
+        Universe","type":"Dimension","dimension":"Merged Dimension","residents":["https://rickandmortyapi.com/api/character/652","https://rickandmortyapi.com/api/character/656","https://rickandmortyapi.com/api/character/657","https://rickandmortyapi.com/api/character/658","https://rickandmortyapi.com/api/character/661","https://rickandmortyapi.com/api/character/655"],"url":"https://rickandmortyapi.com/api/location/103","created":"2020-08-13T10:16:18.946Z"},{"id":104,"name":"Near-Duplicate
+        Reality","type":"Reality","dimension":"Unknown dimension","residents":["https://rickandmortyapi.com/api/character/653","https://rickandmortyapi.com/api/character/654","https://rickandmortyapi.com/api/character/659","https://rickandmortyapi.com/api/character/660"],"url":"https://rickandmortyapi.com/api/location/104","created":"2020-08-13T11:15:54.414Z"},{"id":105,"name":"NX-5
+        Planet Remover","type":"Death Star","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/344","https://rickandmortyapi.com/api/character/670","https://rickandmortyapi.com/api/character/671"],"url":"https://rickandmortyapi.com/api/location/105","created":"2020-08-13T11:35:53.644Z"},{"id":106,"name":"Gaia","type":"Planet","dimension":"Replacement
+        Dimension","residents":["https://rickandmortyapi.com/api/character/662","https://rickandmortyapi.com/api/character/663","https://rickandmortyapi.com/api/character/664","https://rickandmortyapi.com/api/character/665","https://rickandmortyapi.com/api/character/666"],"url":"https://rickandmortyapi.com/api/location/106","created":"2020-08-13T12:00:29.825Z"},{"id":107,"name":"Defiance''s
+        Ship","type":"Spacecraft","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/668"],"url":"https://rickandmortyapi.com/api/location/107","created":"2020-08-13T13:05:33.161Z"},{"id":108,"name":"Defiance''s
+        Base","type":"Base","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/669"],"url":"https://rickandmortyapi.com/api/location/108","created":"2020-08-13T13:07:01.192Z"},{"id":109,"name":"The
+        Ocean","type":"Liquid","dimension":"Replacement Dimension","residents":[],"url":"https://rickandmortyapi.com/api/location/109","created":"2021-10-16T11:53:50.571Z"},{"id":110,"name":"Narnia
+        Dimension","type":"Dimension","dimension":"Fantasy Dimension","residents":["https://rickandmortyapi.com/api/character/673","https://rickandmortyapi.com/api/character/674","https://rickandmortyapi.com/api/character/675","https://rickandmortyapi.com/api/character/676","https://rickandmortyapi.com/api/character/677","https://rickandmortyapi.com/api/character/678","https://rickandmortyapi.com/api/character/679","https://rickandmortyapi.com/api/character/681","https://rickandmortyapi.com/api/character/682","https://rickandmortyapi.com/api/character/683","https://rickandmortyapi.com/api/character/685"],"url":"https://rickandmortyapi.com/api/location/110","created":"2021-10-16T11:59:26.649Z"},{"id":111,"name":"Elemental
+        Rings","type":"Elemental Rings","dimension":"Replacement Dimension","residents":[],"url":"https://rickandmortyapi.com/api/location/111","created":"2021-10-17T09:49:31.948Z"},{"id":112,"name":"Morglutz","type":"Planet","dimension":"Replacement
+        Dimension","residents":["https://rickandmortyapi.com/api/character/799"],"url":"https://rickandmortyapi.com/api/location/112","created":"2021-10-17T09:51:34.413Z"},{"id":113,"name":"Ferkus
+        9","type":"Planet","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/718","https://rickandmortyapi.com/api/character/798"],"url":"https://rickandmortyapi.com/api/location/113","created":"2021-10-17T09:52:23.219Z"},{"id":114,"name":"Morty","type":"Human","dimension":"Replacement
+        Dimension","residents":[],"url":"https://rickandmortyapi.com/api/location/114","created":"2021-10-17T10:08:24.040Z"},{"id":115,"name":"Space","type":"Space","dimension":"Replacement
+        Dimension","residents":["https://rickandmortyapi.com/api/character/731","https://rickandmortyapi.com/api/character/736"],"url":"https://rickandmortyapi.com/api/location/115","created":"2021-10-17T11:55:43.920Z"},{"id":116,"name":"Hell","type":"Hell","dimension":"Replacement
+        Dimension","residents":["https://rickandmortyapi.com/api/character/744","https://rickandmortyapi.com/api/character/745","https://rickandmortyapi.com/api/character/746","https://rickandmortyapi.com/api/character/747","https://rickandmortyapi.com/api/character/748","https://rickandmortyapi.com/api/character/749","https://rickandmortyapi.com/api/character/750"],"url":"https://rickandmortyapi.com/api/location/116","created":"2021-10-17T12:31:59.067Z"},{"id":117,"name":"Z.
+        Q. P. D.","type":"Police Department","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/743"],"url":"https://rickandmortyapi.com/api/location/117","created":"2021-10-17T13:45:50.845Z"},{"id":118,"name":"Space
+        Tahoe","type":"","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/751","https://rickandmortyapi.com/api/character/752"],"url":"https://rickandmortyapi.com/api/location/118","created":"2021-10-17T14:03:13.221Z"},{"id":119,"name":"France","type":"Country","dimension":"Replacement
+        Dimension","residents":[],"url":"https://rickandmortyapi.com/api/location/119","created":"2021-10-17T14:59:13.494Z"},{"id":120,"name":"Birdperson''s
+        Consciousness","type":"Consciousness","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/780","https://rickandmortyapi.com/api/character/782","https://rickandmortyapi.com/api/character/783","https://rickandmortyapi.com/api/character/784","https://rickandmortyapi.com/api/character/785"],"url":"https://rickandmortyapi.com/api/location/120","created":"2021-10-25T09:06:22.109Z"}]}'
+  recorded_at: Fri, 03 Dec 2021 19:53:33 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/location
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - rickandmortyapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=259200
+      - public
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 03 Dec 2021 05:06:38 GMT
+      Etag:
+      - W/"6a76-c5Z7RAzAy2qdeBqdWdXRW287PBI"
+      Expires:
+      - Mon, 06 Dec 2021 05:06:38 GMT
+      Server:
+      - Netlify
+      X-Nf-Request-Id:
+      - 01FP0XQVCAGGJFPHMK41D3J25G
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - Express
+      Age:
+      - '53215'
+      Content-Length:
+      - '2372'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"info":{"count":126,"pages":7,"next":"https://rickandmortyapi.com/api/location?page=2","prev":null},"results":[{"id":1,"name":"Earth
+        (C-137)","type":"Planet","dimension":"Dimension C-137","residents":["https://rickandmortyapi.com/api/character/38","https://rickandmortyapi.com/api/character/45","https://rickandmortyapi.com/api/character/71","https://rickandmortyapi.com/api/character/82","https://rickandmortyapi.com/api/character/83","https://rickandmortyapi.com/api/character/92","https://rickandmortyapi.com/api/character/112","https://rickandmortyapi.com/api/character/114","https://rickandmortyapi.com/api/character/116","https://rickandmortyapi.com/api/character/117","https://rickandmortyapi.com/api/character/120","https://rickandmortyapi.com/api/character/127","https://rickandmortyapi.com/api/character/155","https://rickandmortyapi.com/api/character/169","https://rickandmortyapi.com/api/character/175","https://rickandmortyapi.com/api/character/179","https://rickandmortyapi.com/api/character/186","https://rickandmortyapi.com/api/character/201","https://rickandmortyapi.com/api/character/216","https://rickandmortyapi.com/api/character/239","https://rickandmortyapi.com/api/character/271","https://rickandmortyapi.com/api/character/302","https://rickandmortyapi.com/api/character/303","https://rickandmortyapi.com/api/character/338","https://rickandmortyapi.com/api/character/343","https://rickandmortyapi.com/api/character/356","https://rickandmortyapi.com/api/character/394"],"url":"https://rickandmortyapi.com/api/location/1","created":"2017-11-10T12:42:04.162Z"},{"id":2,"name":"Abadango","type":"Cluster","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/6"],"url":"https://rickandmortyapi.com/api/location/2","created":"2017-11-10T13:06:38.182Z"},{"id":3,"name":"Citadel
+        of Ricks","type":"Space station","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/8","https://rickandmortyapi.com/api/character/14","https://rickandmortyapi.com/api/character/15","https://rickandmortyapi.com/api/character/18","https://rickandmortyapi.com/api/character/21","https://rickandmortyapi.com/api/character/22","https://rickandmortyapi.com/api/character/27","https://rickandmortyapi.com/api/character/42","https://rickandmortyapi.com/api/character/43","https://rickandmortyapi.com/api/character/44","https://rickandmortyapi.com/api/character/48","https://rickandmortyapi.com/api/character/53","https://rickandmortyapi.com/api/character/56","https://rickandmortyapi.com/api/character/61","https://rickandmortyapi.com/api/character/69","https://rickandmortyapi.com/api/character/72","https://rickandmortyapi.com/api/character/73","https://rickandmortyapi.com/api/character/74","https://rickandmortyapi.com/api/character/77","https://rickandmortyapi.com/api/character/78","https://rickandmortyapi.com/api/character/85","https://rickandmortyapi.com/api/character/86","https://rickandmortyapi.com/api/character/95","https://rickandmortyapi.com/api/character/118","https://rickandmortyapi.com/api/character/119","https://rickandmortyapi.com/api/character/123","https://rickandmortyapi.com/api/character/135","https://rickandmortyapi.com/api/character/143","https://rickandmortyapi.com/api/character/152","https://rickandmortyapi.com/api/character/164","https://rickandmortyapi.com/api/character/165","https://rickandmortyapi.com/api/character/187","https://rickandmortyapi.com/api/character/200","https://rickandmortyapi.com/api/character/206","https://rickandmortyapi.com/api/character/209","https://rickandmortyapi.com/api/character/220","https://rickandmortyapi.com/api/character/229","https://rickandmortyapi.com/api/character/231","https://rickandmortyapi.com/api/character/235","https://rickandmortyapi.com/api/character/267","https://rickandmortyapi.com/api/character/278","https://rickandmortyapi.com/api/character/281","https://rickandmortyapi.com/api/character/283","https://rickandmortyapi.com/api/character/284","https://rickandmortyapi.com/api/character/285","https://rickandmortyapi.com/api/character/286","https://rickandmortyapi.com/api/character/287","https://rickandmortyapi.com/api/character/288","https://rickandmortyapi.com/api/character/289","https://rickandmortyapi.com/api/character/291","https://rickandmortyapi.com/api/character/295","https://rickandmortyapi.com/api/character/298","https://rickandmortyapi.com/api/character/299","https://rickandmortyapi.com/api/character/322","https://rickandmortyapi.com/api/character/325","https://rickandmortyapi.com/api/character/328","https://rickandmortyapi.com/api/character/330","https://rickandmortyapi.com/api/character/345","https://rickandmortyapi.com/api/character/359","https://rickandmortyapi.com/api/character/366","https://rickandmortyapi.com/api/character/378","https://rickandmortyapi.com/api/character/385","https://rickandmortyapi.com/api/character/392","https://rickandmortyapi.com/api/character/461","https://rickandmortyapi.com/api/character/462","https://rickandmortyapi.com/api/character/463","https://rickandmortyapi.com/api/character/464","https://rickandmortyapi.com/api/character/465","https://rickandmortyapi.com/api/character/466","https://rickandmortyapi.com/api/character/472","https://rickandmortyapi.com/api/character/473","https://rickandmortyapi.com/api/character/474","https://rickandmortyapi.com/api/character/475","https://rickandmortyapi.com/api/character/476","https://rickandmortyapi.com/api/character/477","https://rickandmortyapi.com/api/character/478","https://rickandmortyapi.com/api/character/479","https://rickandmortyapi.com/api/character/480","https://rickandmortyapi.com/api/character/481","https://rickandmortyapi.com/api/character/482","https://rickandmortyapi.com/api/character/483","https://rickandmortyapi.com/api/character/484","https://rickandmortyapi.com/api/character/485","https://rickandmortyapi.com/api/character/486","https://rickandmortyapi.com/api/character/487","https://rickandmortyapi.com/api/character/488","https://rickandmortyapi.com/api/character/489","https://rickandmortyapi.com/api/character/2","https://rickandmortyapi.com/api/character/1","https://rickandmortyapi.com/api/character/801","https://rickandmortyapi.com/api/character/802","https://rickandmortyapi.com/api/character/803","https://rickandmortyapi.com/api/character/804","https://rickandmortyapi.com/api/character/805","https://rickandmortyapi.com/api/character/806","https://rickandmortyapi.com/api/character/810","https://rickandmortyapi.com/api/character/811","https://rickandmortyapi.com/api/character/812","https://rickandmortyapi.com/api/character/819","https://rickandmortyapi.com/api/character/820","https://rickandmortyapi.com/api/character/818"],"url":"https://rickandmortyapi.com/api/location/3","created":"2017-11-10T13:08:13.191Z"},{"id":4,"name":"Worldender''s
+        lair","type":"Planet","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/10","https://rickandmortyapi.com/api/character/81","https://rickandmortyapi.com/api/character/208","https://rickandmortyapi.com/api/character/226","https://rickandmortyapi.com/api/character/340","https://rickandmortyapi.com/api/character/362","https://rickandmortyapi.com/api/character/375","https://rickandmortyapi.com/api/character/382","https://rickandmortyapi.com/api/character/395"],"url":"https://rickandmortyapi.com/api/location/4","created":"2017-11-10T13:08:20.569Z"},{"id":5,"name":"Anatomy
+        Park","type":"Microverse","dimension":"Dimension C-137","residents":["https://rickandmortyapi.com/api/character/12","https://rickandmortyapi.com/api/character/17","https://rickandmortyapi.com/api/character/96","https://rickandmortyapi.com/api/character/97","https://rickandmortyapi.com/api/character/98","https://rickandmortyapi.com/api/character/99","https://rickandmortyapi.com/api/character/100","https://rickandmortyapi.com/api/character/101","https://rickandmortyapi.com/api/character/108","https://rickandmortyapi.com/api/character/268","https://rickandmortyapi.com/api/character/300"],"url":"https://rickandmortyapi.com/api/location/5","created":"2017-11-10T13:08:46.060Z"},{"id":6,"name":"Interdimensional
+        Cable","type":"TV","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/20","https://rickandmortyapi.com/api/character/28","https://rickandmortyapi.com/api/character/29","https://rickandmortyapi.com/api/character/34","https://rickandmortyapi.com/api/character/49","https://rickandmortyapi.com/api/character/51","https://rickandmortyapi.com/api/character/54","https://rickandmortyapi.com/api/character/121","https://rickandmortyapi.com/api/character/126","https://rickandmortyapi.com/api/character/129","https://rickandmortyapi.com/api/character/134","https://rickandmortyapi.com/api/character/136","https://rickandmortyapi.com/api/character/145","https://rickandmortyapi.com/api/character/157","https://rickandmortyapi.com/api/character/173","https://rickandmortyapi.com/api/character/184","https://rickandmortyapi.com/api/character/205","https://rickandmortyapi.com/api/character/207","https://rickandmortyapi.com/api/character/214","https://rickandmortyapi.com/api/character/222","https://rickandmortyapi.com/api/character/223","https://rickandmortyapi.com/api/character/224","https://rickandmortyapi.com/api/character/225","https://rickandmortyapi.com/api/character/250","https://rickandmortyapi.com/api/character/254","https://rickandmortyapi.com/api/character/260","https://rickandmortyapi.com/api/character/264","https://rickandmortyapi.com/api/character/266","https://rickandmortyapi.com/api/character/275","https://rickandmortyapi.com/api/character/277","https://rickandmortyapi.com/api/character/279","https://rickandmortyapi.com/api/character/312","https://rickandmortyapi.com/api/character/314","https://rickandmortyapi.com/api/character/315","https://rickandmortyapi.com/api/character/316","https://rickandmortyapi.com/api/character/317","https://rickandmortyapi.com/api/character/318","https://rickandmortyapi.com/api/character/334","https://rickandmortyapi.com/api/character/351","https://rickandmortyapi.com/api/character/358","https://rickandmortyapi.com/api/character/367","https://rickandmortyapi.com/api/character/370","https://rickandmortyapi.com/api/character/373","https://rickandmortyapi.com/api/character/403","https://rickandmortyapi.com/api/character/406","https://rickandmortyapi.com/api/character/407","https://rickandmortyapi.com/api/character/408","https://rickandmortyapi.com/api/character/409","https://rickandmortyapi.com/api/character/410","https://rickandmortyapi.com/api/character/411","https://rickandmortyapi.com/api/character/412","https://rickandmortyapi.com/api/character/413","https://rickandmortyapi.com/api/character/414","https://rickandmortyapi.com/api/character/415","https://rickandmortyapi.com/api/character/416","https://rickandmortyapi.com/api/character/417","https://rickandmortyapi.com/api/character/418","https://rickandmortyapi.com/api/character/457","https://rickandmortyapi.com/api/character/458","https://rickandmortyapi.com/api/character/459","https://rickandmortyapi.com/api/character/709","https://rickandmortyapi.com/api/character/711"],"url":"https://rickandmortyapi.com/api/location/6","created":"2017-11-10T13:09:09.102Z"},{"id":7,"name":"Immortality
+        Field Resort","type":"Resort","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/23","https://rickandmortyapi.com/api/character/204","https://rickandmortyapi.com/api/character/320"],"url":"https://rickandmortyapi.com/api/location/7","created":"2017-11-10T13:09:17.136Z"},{"id":8,"name":"Post-Apocalyptic
+        Earth","type":"Planet","dimension":"Post-Apocalyptic Dimension","residents":["https://rickandmortyapi.com/api/character/25","https://rickandmortyapi.com/api/character/52","https://rickandmortyapi.com/api/character/68","https://rickandmortyapi.com/api/character/110","https://rickandmortyapi.com/api/character/111","https://rickandmortyapi.com/api/character/140","https://rickandmortyapi.com/api/character/156","https://rickandmortyapi.com/api/character/228","https://rickandmortyapi.com/api/character/323","https://rickandmortyapi.com/api/character/342"],"url":"https://rickandmortyapi.com/api/location/8","created":"2017-11-10T13:09:22.551Z"},{"id":9,"name":"Purge
+        Planet","type":"Planet","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/26","https://rickandmortyapi.com/api/character/139","https://rickandmortyapi.com/api/character/202","https://rickandmortyapi.com/api/character/273"],"url":"https://rickandmortyapi.com/api/location/9","created":"2017-11-10T13:09:29.566Z"},{"id":10,"name":"Venzenulon
+        7","type":"Planet","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/33"],"url":"https://rickandmortyapi.com/api/location/10","created":"2017-11-18T11:21:51.643Z"},{"id":11,"name":"Bepis
+        9","type":"Planet","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/35"],"url":"https://rickandmortyapi.com/api/location/11","created":"2017-11-18T11:26:03.325Z"},{"id":12,"name":"Cronenberg
+        Earth","type":"Planet","dimension":"Cronenberg Dimension","residents":[],"url":"https://rickandmortyapi.com/api/location/12","created":"2017-11-18T11:29:27.857Z"},{"id":13,"name":"Nuptia
+        4","type":"Planet","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/40","https://rickandmortyapi.com/api/character/55","https://rickandmortyapi.com/api/character/131","https://rickandmortyapi.com/api/character/132","https://rickandmortyapi.com/api/character/146","https://rickandmortyapi.com/api/character/148","https://rickandmortyapi.com/api/character/163","https://rickandmortyapi.com/api/character/178","https://rickandmortyapi.com/api/character/310","https://rickandmortyapi.com/api/character/386","https://rickandmortyapi.com/api/character/387"],"url":"https://rickandmortyapi.com/api/location/13","created":"2017-11-18T11:30:29.780Z"},{"id":14,"name":"Giant''s
+        Town","type":"Fantasy town","dimension":"Fantasy Dimension","residents":["https://rickandmortyapi.com/api/character/89","https://rickandmortyapi.com/api/character/399","https://rickandmortyapi.com/api/character/400"],"url":"https://rickandmortyapi.com/api/location/14","created":"2017-11-18T11:31:15.248Z"},{"id":15,"name":"Bird
+        World","type":"Planet","dimension":"unknown","residents":[],"url":"https://rickandmortyapi.com/api/location/15","created":"2017-11-18T11:32:26.752Z"},{"id":16,"name":"St.
+        Gloopy Noops Hospital","type":"Space station","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/105","https://rickandmortyapi.com/api/character/263","https://rickandmortyapi.com/api/character/321","https://rickandmortyapi.com/api/character/383","https://rickandmortyapi.com/api/character/384","https://rickandmortyapi.com/api/character/454","https://rickandmortyapi.com/api/character/455","https://rickandmortyapi.com/api/character/456","https://rickandmortyapi.com/api/character/460"],"url":"https://rickandmortyapi.com/api/location/16","created":"2017-11-18T11:43:20.075Z"},{"id":17,"name":"Earth
+        (5-126)","type":"Planet","dimension":"Dimension 5-126","residents":[],"url":"https://rickandmortyapi.com/api/location/17","created":"2017-11-18T11:41:08.486Z"},{"id":18,"name":"Mr.
+        Goldenfold''s dream","type":"Dream","dimension":"Dimension C-137","residents":["https://rickandmortyapi.com/api/character/63","https://rickandmortyapi.com/api/character/80","https://rickandmortyapi.com/api/character/221","https://rickandmortyapi.com/api/character/246","https://rickandmortyapi.com/api/character/304","https://rickandmortyapi.com/api/character/305","https://rickandmortyapi.com/api/character/306","https://rickandmortyapi.com/api/character/396"],"url":"https://rickandmortyapi.com/api/location/18","created":"2017-11-18T11:46:22.933Z"},{"id":19,"name":"Gromflom
+        Prime","type":"Planet","dimension":"Replacement Dimension","residents":[],"url":"https://rickandmortyapi.com/api/location/19","created":"2017-11-18T11:39:52.165Z"},{"id":20,"name":"Earth
+        (Replacement Dimension)","type":"Planet","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/3","https://rickandmortyapi.com/api/character/4","https://rickandmortyapi.com/api/character/5","https://rickandmortyapi.com/api/character/9","https://rickandmortyapi.com/api/character/11","https://rickandmortyapi.com/api/character/13","https://rickandmortyapi.com/api/character/16","https://rickandmortyapi.com/api/character/31","https://rickandmortyapi.com/api/character/32","https://rickandmortyapi.com/api/character/50","https://rickandmortyapi.com/api/character/58","https://rickandmortyapi.com/api/character/59","https://rickandmortyapi.com/api/character/64","https://rickandmortyapi.com/api/character/66","https://rickandmortyapi.com/api/character/76","https://rickandmortyapi.com/api/character/88","https://rickandmortyapi.com/api/character/103","https://rickandmortyapi.com/api/character/107","https://rickandmortyapi.com/api/character/109","https://rickandmortyapi.com/api/character/113","https://rickandmortyapi.com/api/character/115","https://rickandmortyapi.com/api/character/124","https://rickandmortyapi.com/api/character/128","https://rickandmortyapi.com/api/character/137","https://rickandmortyapi.com/api/character/138","https://rickandmortyapi.com/api/character/141","https://rickandmortyapi.com/api/character/147","https://rickandmortyapi.com/api/character/149","https://rickandmortyapi.com/api/character/151","https://rickandmortyapi.com/api/character/154","https://rickandmortyapi.com/api/character/166","https://rickandmortyapi.com/api/character/167","https://rickandmortyapi.com/api/character/170","https://rickandmortyapi.com/api/character/171","https://rickandmortyapi.com/api/character/172","https://rickandmortyapi.com/api/character/180","https://rickandmortyapi.com/api/character/181","https://rickandmortyapi.com/api/character/182","https://rickandmortyapi.com/api/character/185","https://rickandmortyapi.com/api/character/189","https://rickandmortyapi.com/api/character/190","https://rickandmortyapi.com/api/character/210","https://rickandmortyapi.com/api/character/217","https://rickandmortyapi.com/api/character/218","https://rickandmortyapi.com/api/character/219","https://rickandmortyapi.com/api/character/227","https://rickandmortyapi.com/api/character/230","https://rickandmortyapi.com/api/character/233","https://rickandmortyapi.com/api/character/234","https://rickandmortyapi.com/api/character/236","https://rickandmortyapi.com/api/character/237","https://rickandmortyapi.com/api/character/240","https://rickandmortyapi.com/api/character/241","https://rickandmortyapi.com/api/character/243","https://rickandmortyapi.com/api/character/244","https://rickandmortyapi.com/api/character/245","https://rickandmortyapi.com/api/character/248","https://rickandmortyapi.com/api/character/251","https://rickandmortyapi.com/api/character/255","https://rickandmortyapi.com/api/character/259","https://rickandmortyapi.com/api/character/262","https://rickandmortyapi.com/api/character/265","https://rickandmortyapi.com/api/character/272","https://rickandmortyapi.com/api/character/276","https://rickandmortyapi.com/api/character/280","https://rickandmortyapi.com/api/character/292","https://rickandmortyapi.com/api/character/293","https://rickandmortyapi.com/api/character/324","https://rickandmortyapi.com/api/character/326","https://rickandmortyapi.com/api/character/327","https://rickandmortyapi.com/api/character/332","https://rickandmortyapi.com/api/character/335","https://rickandmortyapi.com/api/character/341","https://rickandmortyapi.com/api/character/346","https://rickandmortyapi.com/api/character/347","https://rickandmortyapi.com/api/character/352","https://rickandmortyapi.com/api/character/353","https://rickandmortyapi.com/api/character/354","https://rickandmortyapi.com/api/character/357","https://rickandmortyapi.com/api/character/360","https://rickandmortyapi.com/api/character/361","https://rickandmortyapi.com/api/character/363","https://rickandmortyapi.com/api/character/365","https://rickandmortyapi.com/api/character/374","https://rickandmortyapi.com/api/character/377","https://rickandmortyapi.com/api/character/390","https://rickandmortyapi.com/api/character/391","https://rickandmortyapi.com/api/character/401","https://rickandmortyapi.com/api/character/402","https://rickandmortyapi.com/api/character/405","https://rickandmortyapi.com/api/character/423","https://rickandmortyapi.com/api/character/435","https://rickandmortyapi.com/api/character/437","https://rickandmortyapi.com/api/character/438","https://rickandmortyapi.com/api/character/439","https://rickandmortyapi.com/api/character/440","https://rickandmortyapi.com/api/character/452","https://rickandmortyapi.com/api/character/453","https://rickandmortyapi.com/api/character/467","https://rickandmortyapi.com/api/character/468","https://rickandmortyapi.com/api/character/469","https://rickandmortyapi.com/api/character/471","https://rickandmortyapi.com/api/character/492","https://rickandmortyapi.com/api/character/493","https://rickandmortyapi.com/api/character/497","https://rickandmortyapi.com/api/character/509","https://rickandmortyapi.com/api/character/510","https://rickandmortyapi.com/api/character/511","https://rickandmortyapi.com/api/character/512","https://rickandmortyapi.com/api/character/513","https://rickandmortyapi.com/api/character/514","https://rickandmortyapi.com/api/character/516","https://rickandmortyapi.com/api/character/517","https://rickandmortyapi.com/api/character/523","https://rickandmortyapi.com/api/character/524","https://rickandmortyapi.com/api/character/526","https://rickandmortyapi.com/api/character/534","https://rickandmortyapi.com/api/character/535","https://rickandmortyapi.com/api/character/536","https://rickandmortyapi.com/api/character/537","https://rickandmortyapi.com/api/character/538","https://rickandmortyapi.com/api/character/539","https://rickandmortyapi.com/api/character/540","https://rickandmortyapi.com/api/character/541","https://rickandmortyapi.com/api/character/561","https://rickandmortyapi.com/api/character/562","https://rickandmortyapi.com/api/character/564","https://rickandmortyapi.com/api/character/570","https://rickandmortyapi.com/api/character/575","https://rickandmortyapi.com/api/character/584","https://rickandmortyapi.com/api/character/585","https://rickandmortyapi.com/api/character/586","https://rickandmortyapi.com/api/character/588","https://rickandmortyapi.com/api/character/590","https://rickandmortyapi.com/api/character/591","https://rickandmortyapi.com/api/character/592","https://rickandmortyapi.com/api/character/667","https://rickandmortyapi.com/api/character/672","https://rickandmortyapi.com/api/character/680","https://rickandmortyapi.com/api/character/684","https://rickandmortyapi.com/api/character/686","https://rickandmortyapi.com/api/character/687","https://rickandmortyapi.com/api/character/688","https://rickandmortyapi.com/api/character/689","https://rickandmortyapi.com/api/character/690","https://rickandmortyapi.com/api/character/691","https://rickandmortyapi.com/api/character/692","https://rickandmortyapi.com/api/character/693","https://rickandmortyapi.com/api/character/694","https://rickandmortyapi.com/api/character/695","https://rickandmortyapi.com/api/character/696","https://rickandmortyapi.com/api/character/697","https://rickandmortyapi.com/api/character/698","https://rickandmortyapi.com/api/character/699","https://rickandmortyapi.com/api/character/700","https://rickandmortyapi.com/api/character/701","https://rickandmortyapi.com/api/character/702","https://rickandmortyapi.com/api/character/703","https://rickandmortyapi.com/api/character/704","https://rickandmortyapi.com/api/character/705","https://rickandmortyapi.com/api/character/706","https://rickandmortyapi.com/api/character/707","https://rickandmortyapi.com/api/character/708","https://rickandmortyapi.com/api/character/710","https://rickandmortyapi.com/api/character/712","https://rickandmortyapi.com/api/character/713","https://rickandmortyapi.com/api/character/714","https://rickandmortyapi.com/api/character/715","https://rickandmortyapi.com/api/character/716","https://rickandmortyapi.com/api/character/717","https://rickandmortyapi.com/api/character/719","https://rickandmortyapi.com/api/character/720","https://rickandmortyapi.com/api/character/721","https://rickandmortyapi.com/api/character/722","https://rickandmortyapi.com/api/character/723","https://rickandmortyapi.com/api/character/724","https://rickandmortyapi.com/api/character/725","https://rickandmortyapi.com/api/character/726","https://rickandmortyapi.com/api/character/727","https://rickandmortyapi.com/api/character/728","https://rickandmortyapi.com/api/character/729","https://rickandmortyapi.com/api/character/730","https://rickandmortyapi.com/api/character/732","https://rickandmortyapi.com/api/character/733","https://rickandmortyapi.com/api/character/734","https://rickandmortyapi.com/api/character/735","https://rickandmortyapi.com/api/character/737","https://rickandmortyapi.com/api/character/738","https://rickandmortyapi.com/api/character/739","https://rickandmortyapi.com/api/character/740","https://rickandmortyapi.com/api/character/741","https://rickandmortyapi.com/api/character/742","https://rickandmortyapi.com/api/character/753","https://rickandmortyapi.com/api/character/754","https://rickandmortyapi.com/api/character/755","https://rickandmortyapi.com/api/character/756","https://rickandmortyapi.com/api/character/757","https://rickandmortyapi.com/api/character/758","https://rickandmortyapi.com/api/character/759","https://rickandmortyapi.com/api/character/760","https://rickandmortyapi.com/api/character/761","https://rickandmortyapi.com/api/character/762","https://rickandmortyapi.com/api/character/763","https://rickandmortyapi.com/api/character/764","https://rickandmortyapi.com/api/character/765","https://rickandmortyapi.com/api/character/766","https://rickandmortyapi.com/api/character/767","https://rickandmortyapi.com/api/character/768","https://rickandmortyapi.com/api/character/769","https://rickandmortyapi.com/api/character/770","https://rickandmortyapi.com/api/character/771","https://rickandmortyapi.com/api/character/772","https://rickandmortyapi.com/api/character/773","https://rickandmortyapi.com/api/character/774","https://rickandmortyapi.com/api/character/775","https://rickandmortyapi.com/api/character/776","https://rickandmortyapi.com/api/character/777","https://rickandmortyapi.com/api/character/778","https://rickandmortyapi.com/api/character/781","https://rickandmortyapi.com/api/character/786","https://rickandmortyapi.com/api/character/788","https://rickandmortyapi.com/api/character/789","https://rickandmortyapi.com/api/character/790","https://rickandmortyapi.com/api/character/791","https://rickandmortyapi.com/api/character/203","https://rickandmortyapi.com/api/character/794","https://rickandmortyapi.com/api/character/800","https://rickandmortyapi.com/api/character/813","https://rickandmortyapi.com/api/character/821","https://rickandmortyapi.com/api/character/826"],"url":"https://rickandmortyapi.com/api/location/20","created":"2017-11-18T19:33:01.173Z"}]}'
+  recorded_at: Fri, 03 Dec 2021 19:53:33 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/location?page=7
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - rickandmortyapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=259200
+      - public
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 01 Dec 2021 23:49:10 GMT
+      Etag:
+      - W/"872-yh6IYZdvbENDtBpUKZWC+Zu1kpc"
+      Expires:
+      - Sat, 04 Dec 2021 23:49:10 GMT
+      Server:
+      - Netlify
+      X-Nf-Request-Id:
+      - 01FP0XQVW621KTH68BB05402J3
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - Express
+      Content-Length:
+      - '479'
+      Age:
+      - '158664'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"info":{"count":126,"pages":7,"next":null,"prev":"https://rickandmortyapi.com/api/location?page=6"},"results":[{"id":121,"name":"Rick''s
+        Consciousness","type":"Consciousness","dimension":"Replacement Dimension","residents":[],"url":"https://rickandmortyapi.com/api/location/121","created":"2021-10-25T09:12:23.715Z"},{"id":122,"name":"Avian
+        Planet","type":"Planet","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/792","https://rickandmortyapi.com/api/character/793"],"url":"https://rickandmortyapi.com/api/location/122","created":"2021-10-26T12:19:52.957Z"},{"id":123,"name":"Normal
+        Size Bug Dimension","type":"Dimension","dimension":"","residents":["https://rickandmortyapi.com/api/character/795","https://rickandmortyapi.com/api/character/796"],"url":"https://rickandmortyapi.com/api/location/123","created":"2021-11-02T13:03:21.307Z"},{"id":124,"name":"Slartivart","type":"Planet","dimension":"Replacement
+        Dimension","residents":["https://rickandmortyapi.com/api/character/797"],"url":"https://rickandmortyapi.com/api/location/124","created":"2021-11-02T13:07:27.619Z"},{"id":125,"name":"Rick
+        and Two Crows Planet","type":"Planet","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/809","https://rickandmortyapi.com/api/character/808","https://rickandmortyapi.com/api/character/787"],"url":"https://rickandmortyapi.com/api/location/125","created":"2021-11-02T13:50:55.588Z"},{"id":126,"name":"Rick''s
+        Memories","type":"Memory","dimension":"","residents":["https://rickandmortyapi.com/api/character/815","https://rickandmortyapi.com/api/character/814","https://rickandmortyapi.com/api/character/807","https://rickandmortyapi.com/api/character/94","https://rickandmortyapi.com/api/character/779","https://rickandmortyapi.com/api/character/816","https://rickandmortyapi.com/api/character/817","https://rickandmortyapi.com/api/character/274","https://rickandmortyapi.com/api/character/389","https://rickandmortyapi.com/api/character/215","https://rickandmortyapi.com/api/character/294"],"url":"https://rickandmortyapi.com/api/location/126","created":"2021-11-02T15:18:57.987Z"}]}'
+  recorded_at: Fri, 03 Dec 2021 19:53:34 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/location?page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - rickandmortyapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=259200
+      - public
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 03 Dec 2021 19:53:34 GMT
+      Etag:
+      - W/"1738-8lWWNBqopXq8BxvNCeRSbgUIj14"
+      Expires:
+      - Mon, 06 Dec 2021 19:53:34 GMT
+      Server:
+      - Netlify
+      Vary:
+      - Accept-Encoding
+      X-Nf-Request-Id:
+      - 01FP0XQVVJHRKRBGD4JM5T8W5R
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpbmZvIjp7ImNvdW50IjoxMjYsInBhZ2VzIjo3LCJuZXh0IjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbj9wYWdlPTUiLCJwcmV2IjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbj9wYWdlPTMifSwicmVzdWx0cyI6W3siaWQiOjYxLCJuYW1lIjoiRWFydGggKEQ3MTYtQykiLCJ0eXBlIjoiUGxhbmV0IiwiZGltZW5zaW9uIjoiRGltZW5zaW9uIEQ3MTYtQyIsInJlc2lkZW50cyI6W10sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vNjEiLCJjcmVhdGVkIjoiMjAxNy0xMi0zMVQxOTo1NzozNi40NjhaIn0seyJpZCI6NjIsIm5hbWUiOiJFYXJ0aCAoSi0yMikiLCJ0eXBlIjoiUGxhbmV0IiwiZGltZW5zaW9uIjoiRGltZW5zaW9uIEotMjIiLCJyZXNpZGVudHMiOltdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzYyIiwiY3JlYXRlZCI6IjIwMTctMTItMzFUMjA6MTY6NTIuMjYzWiJ9LHsiaWQiOjYzLCJuYW1lIjoiRnJvb3B5bGFuZCIsInR5cGUiOiJBcnRpZmljaWFsbHkgZ2VuZXJhdGVkIHdvcmxkIiwiZGltZW5zaW9uIjoiUmVwbGFjZW1lbnQgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzM1MCJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzYzIiwiY3JlYXRlZCI6IjIwMTgtMDEtMTBUMTc6NTU6MTQuMjI3WiJ9LHsiaWQiOjY0LCJuYW1lIjoiRGV0b3hpZmllciIsInR5cGUiOiJNYWNoaW5lIiwiZGltZW5zaW9uIjoiUmVwbGFjZW1lbnQgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi82NCIsImNyZWF0ZWQiOiIyMDE4LTAxLTEwVDE4OjIwOjQxLjYyN1oifSx7ImlkIjo2NSwibmFtZSI6IlRydW5rIFdvcmxkIiwidHlwZSI6IlBsYW5ldCIsImRpbWVuc2lvbiI6InVua25vd24iLCJyZXNpZGVudHMiOltdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzY1IiwiY3JlYXRlZCI6IjIwMTgtMDEtMTBUMTk6MDM6MTMuNDg0WiJ9LHsiaWQiOjY2LCJuYW1lIjoiUGxvcHN0YXIiLCJ0eXBlIjoiUGxhbmV0IiwiZGltZW5zaW9uIjoidW5rbm93biIsInJlc2lkZW50cyI6WyJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci8zNzEiXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi82NiIsImNyZWF0ZWQiOiIyMDE4LTAxLTEwVDE5OjU2OjU3LjcxN1oifSx7ImlkIjo2NywibmFtZSI6IkJsaXBzIGFuZCBDaGl0eiIsInR5cGUiOiJBcmNhZGUiLCJkaW1lbnNpb24iOiJSZXBsYWNlbWVudCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOltdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzY3IiwiY3JlYXRlZCI6IjIwMTgtMDEtMjFUMTk6MDE6MTkuNDk2WiJ9LHsiaWQiOjY4LCJuYW1lIjoiR2lydm9uZXNrIiwidHlwZSI6InVua25vd24iLCJkaW1lbnNpb24iOiJ1bmtub3duIiwicmVzaWRlbnRzIjpbXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi82OCIsImNyZWF0ZWQiOiIyMDE4LTA0LTE1VDE2OjM5OjM4LjU5OFoifSx7ImlkIjo2OSwibmFtZSI6IkVhcnRoIChDLTM1KSIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJEaW1lbnNpb24gQy0zNSIsInJlc2lkZW50cyI6W10sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vNjkiLCJjcmVhdGVkIjoiMjAxOC0wNC0xNVQxNjo1NTo1Ni4yMTJaIn0seyJpZCI6NzAsIm5hbWUiOiJTbnVmZmxlcycgRHJlYW0iLCJ0eXBlIjoiRHJlYW0iLCJkaW1lbnNpb24iOiJEaW1lbnNpb24gQy0xMzciLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvMzk3IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvMzk4Il0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vNzAiLCJjcmVhdGVkIjoiMjAxOC0wNC0xNVQxNzoxMzo1NC4wNzFaIn0seyJpZCI6NzEsIm5hbWUiOiJFYXJ0aCAoUGl6emEgRGltZW5zaW9uKSIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJQaXp6YSBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDI0IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDI1Il0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vNzEiLCJjcmVhdGVkIjoiMjAxOC0wNC0xNVQxNzo1NTowNC40NzhaIn0seyJpZCI6NzIsIm5hbWUiOiJFYXJ0aCAoUGhvbmUgRGltZW5zaW9uKSIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJQaG9uZSBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDA0IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDI3IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDI4Il0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vNzIiLCJjcmVhdGVkIjoiMjAxOC0wNC0xNVQxNzo1NjowOS4xMTdaIn0seyJpZCI6NzMsIm5hbWUiOiJHcmVhc3kgR3JhbmRtYSBXb3JsZCIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJ1bmtub3duIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzQyNiJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzczIiwiY3JlYXRlZCI6IjIwMTgtMDQtMTZUMjE6NTA6MjAuMTQ0WiJ9LHsiaWQiOjc0LCJuYW1lIjoiRWFydGggKENoYWlyIERpbWVuc2lvbikiLCJ0eXBlIjoiUGxhbmV0IiwiZGltZW5zaW9uIjoiQ2hhaXIgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzQyOSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzQzMCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzQzMSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzQzMiJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzc0IiwiY3JlYXRlZCI6IjIwMTgtMDQtMTZUMjE6NTg6MjQuMjkyWiJ9LHsiaWQiOjc1LCJuYW1lIjoiw4FyYm9sZXMgTWVudGlyb3NvcyIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJ1bmtub3duIiwicmVzaWRlbnRzIjpbXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi83NSIsImNyZWF0ZWQiOiIyMDE4LTA1LTAxVDE1OjI3OjIwLjI1MVoifSx7ImlkIjo3NiwibmFtZSI6IkFsaWVuIERheSBTcGEiLCJ0eXBlIjoiU3BhIiwiZGltZW5zaW9uIjoidW5rbm93biIsInJlc2lkZW50cyI6WyJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci80NzAiXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi83NiIsImNyZWF0ZWQiOiIyMDE4LTA1LTIyVDIwOjQ5OjAxLjgyMFoifSx7ImlkIjo3NywibmFtZSI6IkVhcnRoIChGYXNjaXN0IERpbWVuc2lvbikiLCJ0eXBlIjoiUGxhbmV0IiwiZGltZW5zaW9uIjoiRmFzY2lzdCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvMjQyIiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDk4IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDk5IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTAwIiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTAxIiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTAyIl0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vNzciLCJjcmVhdGVkIjoiMjAyMC0wNS0wMlQwOTozOTo0OS4xNThaIn0seyJpZCI6NzgsIm5hbWUiOiJTbmFrZSBQbGFuZXQiLCJ0eXBlIjoiUGxhbmV0IiwiZGltZW5zaW9uIjoiUmVwbGFjZW1lbnQgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzMxMyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU3MSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU3MiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU3MyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU3NCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU3NiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU3NyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU3OCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU3OSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU4MCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU4MSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU4MiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU4MyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU4NyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU4OSJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzc4IiwiY3JlYXRlZCI6IjIwMjAtMDUtMDJUMDk6NDc6MzkuNzU0WiJ9LHsiaWQiOjc5LCJuYW1lIjoiRm9yYm9kdWxvbiBQcmltZSIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJSZXBsYWNlbWVudCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDk0IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDk1IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDk2Il0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vNzkiLCJjcmVhdGVkIjoiMjAyMC0wNS0wMlQxMDowNDowNS41MDlaIn0seyJpZCI6ODAsIm5hbWUiOiJFYXJ0aCAoRmFzY2lzdCBTaHJpbXAgRGltZW5zaW9uKSIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJGYXNjaXN0IFNocmltcCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTAzIiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTA0IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTA1IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTA2Il0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vODAiLCJjcmVhdGVkIjoiMjAyMC0wNS0wMlQxMTo1MjozNS4xNTZaIn1dfQ==
+  recorded_at: Fri, 03 Dec 2021 19:53:34 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/location?page=6
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - rickandmortyapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=259200
+      - public
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 03 Dec 2021 19:53:34 GMT
+      Etag:
+      - W/"1b53-TTSTDdWFX+PoXhPzk0248RRECGk"
+      Expires:
+      - Mon, 06 Dec 2021 19:53:34 GMT
+      Server:
+      - Netlify
+      X-Nf-Request-Id:
+      - 01FP0XQVWDKSK8YG8QY7TRBMHV
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - Express
+      Content-Length:
+      - '1106'
+      Age:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"info":{"count":126,"pages":7,"next":"https://rickandmortyapi.com/api/location?page=7","prev":"https://rickandmortyapi.com/api/location?page=5"},"results":[{"id":101,"name":"Glorzo
+        Asteroid","type":"Asteroid","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/640","https://rickandmortyapi.com/api/character/641","https://rickandmortyapi.com/api/character/642","https://rickandmortyapi.com/api/character/643","https://rickandmortyapi.com/api/character/644","https://rickandmortyapi.com/api/character/645","https://rickandmortyapi.com/api/character/646","https://rickandmortyapi.com/api/character/647"],"url":"https://rickandmortyapi.com/api/location/101","created":"2020-08-07T11:28:46.897Z"},{"id":102,"name":"Alien
+        Acid Plant","type":"Acid Plant","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/648","https://rickandmortyapi.com/api/character/649","https://rickandmortyapi.com/api/character/650","https://rickandmortyapi.com/api/character/651"],"url":"https://rickandmortyapi.com/api/location/102","created":"2020-08-13T10:08:12.986Z"},{"id":103,"name":"Merged
+        Universe","type":"Dimension","dimension":"Merged Dimension","residents":["https://rickandmortyapi.com/api/character/652","https://rickandmortyapi.com/api/character/656","https://rickandmortyapi.com/api/character/657","https://rickandmortyapi.com/api/character/658","https://rickandmortyapi.com/api/character/661","https://rickandmortyapi.com/api/character/655"],"url":"https://rickandmortyapi.com/api/location/103","created":"2020-08-13T10:16:18.946Z"},{"id":104,"name":"Near-Duplicate
+        Reality","type":"Reality","dimension":"Unknown dimension","residents":["https://rickandmortyapi.com/api/character/653","https://rickandmortyapi.com/api/character/654","https://rickandmortyapi.com/api/character/659","https://rickandmortyapi.com/api/character/660"],"url":"https://rickandmortyapi.com/api/location/104","created":"2020-08-13T11:15:54.414Z"},{"id":105,"name":"NX-5
+        Planet Remover","type":"Death Star","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/344","https://rickandmortyapi.com/api/character/670","https://rickandmortyapi.com/api/character/671"],"url":"https://rickandmortyapi.com/api/location/105","created":"2020-08-13T11:35:53.644Z"},{"id":106,"name":"Gaia","type":"Planet","dimension":"Replacement
+        Dimension","residents":["https://rickandmortyapi.com/api/character/662","https://rickandmortyapi.com/api/character/663","https://rickandmortyapi.com/api/character/664","https://rickandmortyapi.com/api/character/665","https://rickandmortyapi.com/api/character/666"],"url":"https://rickandmortyapi.com/api/location/106","created":"2020-08-13T12:00:29.825Z"},{"id":107,"name":"Defiance''s
+        Ship","type":"Spacecraft","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/668"],"url":"https://rickandmortyapi.com/api/location/107","created":"2020-08-13T13:05:33.161Z"},{"id":108,"name":"Defiance''s
+        Base","type":"Base","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/669"],"url":"https://rickandmortyapi.com/api/location/108","created":"2020-08-13T13:07:01.192Z"},{"id":109,"name":"The
+        Ocean","type":"Liquid","dimension":"Replacement Dimension","residents":[],"url":"https://rickandmortyapi.com/api/location/109","created":"2021-10-16T11:53:50.571Z"},{"id":110,"name":"Narnia
+        Dimension","type":"Dimension","dimension":"Fantasy Dimension","residents":["https://rickandmortyapi.com/api/character/673","https://rickandmortyapi.com/api/character/674","https://rickandmortyapi.com/api/character/675","https://rickandmortyapi.com/api/character/676","https://rickandmortyapi.com/api/character/677","https://rickandmortyapi.com/api/character/678","https://rickandmortyapi.com/api/character/679","https://rickandmortyapi.com/api/character/681","https://rickandmortyapi.com/api/character/682","https://rickandmortyapi.com/api/character/683","https://rickandmortyapi.com/api/character/685"],"url":"https://rickandmortyapi.com/api/location/110","created":"2021-10-16T11:59:26.649Z"},{"id":111,"name":"Elemental
+        Rings","type":"Elemental Rings","dimension":"Replacement Dimension","residents":[],"url":"https://rickandmortyapi.com/api/location/111","created":"2021-10-17T09:49:31.948Z"},{"id":112,"name":"Morglutz","type":"Planet","dimension":"Replacement
+        Dimension","residents":["https://rickandmortyapi.com/api/character/799"],"url":"https://rickandmortyapi.com/api/location/112","created":"2021-10-17T09:51:34.413Z"},{"id":113,"name":"Ferkus
+        9","type":"Planet","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/718","https://rickandmortyapi.com/api/character/798"],"url":"https://rickandmortyapi.com/api/location/113","created":"2021-10-17T09:52:23.219Z"},{"id":114,"name":"Morty","type":"Human","dimension":"Replacement
+        Dimension","residents":[],"url":"https://rickandmortyapi.com/api/location/114","created":"2021-10-17T10:08:24.040Z"},{"id":115,"name":"Space","type":"Space","dimension":"Replacement
+        Dimension","residents":["https://rickandmortyapi.com/api/character/731","https://rickandmortyapi.com/api/character/736"],"url":"https://rickandmortyapi.com/api/location/115","created":"2021-10-17T11:55:43.920Z"},{"id":116,"name":"Hell","type":"Hell","dimension":"Replacement
+        Dimension","residents":["https://rickandmortyapi.com/api/character/744","https://rickandmortyapi.com/api/character/745","https://rickandmortyapi.com/api/character/746","https://rickandmortyapi.com/api/character/747","https://rickandmortyapi.com/api/character/748","https://rickandmortyapi.com/api/character/749","https://rickandmortyapi.com/api/character/750"],"url":"https://rickandmortyapi.com/api/location/116","created":"2021-10-17T12:31:59.067Z"},{"id":117,"name":"Z.
+        Q. P. D.","type":"Police Department","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/743"],"url":"https://rickandmortyapi.com/api/location/117","created":"2021-10-17T13:45:50.845Z"},{"id":118,"name":"Space
+        Tahoe","type":"","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/751","https://rickandmortyapi.com/api/character/752"],"url":"https://rickandmortyapi.com/api/location/118","created":"2021-10-17T14:03:13.221Z"},{"id":119,"name":"France","type":"Country","dimension":"Replacement
+        Dimension","residents":[],"url":"https://rickandmortyapi.com/api/location/119","created":"2021-10-17T14:59:13.494Z"},{"id":120,"name":"Birdperson''s
+        Consciousness","type":"Consciousness","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/780","https://rickandmortyapi.com/api/character/782","https://rickandmortyapi.com/api/character/783","https://rickandmortyapi.com/api/character/784","https://rickandmortyapi.com/api/character/785"],"url":"https://rickandmortyapi.com/api/location/120","created":"2021-10-25T09:06:22.109Z"}]}'
+  recorded_at: Fri, 03 Dec 2021 19:53:34 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/location?page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - rickandmortyapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=259200
+      - public
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 03 Dec 2021 19:53:34 GMT
+      Etag:
+      - W/"1ab7-syQp0QNj8K18UoCdiqzk6i8idA8"
+      Expires:
+      - Mon, 06 Dec 2021 19:53:34 GMT
+      Server:
+      - Netlify
+      X-Nf-Request-Id:
+      - 01FP0XQVVRKE3WMNTBB4MQ5MD2
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - Express
+      Content-Length:
+      - '1141'
+      Age:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpbmZvIjp7ImNvdW50IjoxMjYsInBhZ2VzIjo3LCJuZXh0IjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbj9wYWdlPTMiLCJwcmV2IjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbj9wYWdlPTEifSwicmVzdWx0cyI6W3siaWQiOjIxLCJuYW1lIjoiVGVzdGljbGUgTW9uc3RlciBEaW1lbnNpb24iLCJ0eXBlIjoiRGltZW5zaW9uIiwiZGltZW5zaW9uIjoiVGVzdGljbGUgTW9uc3RlciBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzQzNiJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzIxIiwiY3JlYXRlZCI6IjIwMTctMTEtMThUMTk6NDE6MDEuNjA1WiJ9LHsiaWQiOjIyLCJuYW1lIjoiU2lnbnVzIDUgRXhwYW5zZSIsInR5cGUiOiJ1bmtub3duIiwiZGltZW5zaW9uIjoiQ3JvbXVsb24gRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzI0IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvMzA5Il0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vMjIiLCJjcmVhdGVkIjoiMjAxNy0xMS0xOFQyMDoyNzoyNi4yMThaIn0seyJpZCI6MjMsIm5hbWUiOiJFYXJ0aCAoQy01MDBBKSIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJEaW1lbnNpb24gQy01MDBBIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzM3IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvOTEiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci8xNzYiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci8xODMiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci8xOTUiXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi8yMyIsImNyZWF0ZWQiOiIyMDE3LTExLTE4VDIwOjU4OjE1LjE3OFoifSx7ImlkIjoyNCwibmFtZSI6IlJpY2sncyBCYXR0ZXJ5IE1pY3JvdmVyc2UiLCJ0eXBlIjoiTWljcm92ZXJzZSIsImRpbWVuc2lvbiI6IlJlcGxhY2VtZW50IERpbWVuc2lvbiIsInJlc2lkZW50cyI6WyJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci82NSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzM4OCJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzI0IiwiY3JlYXRlZCI6IjIwMTctMTEtMzBUMTE6MDI6NDEuNzIyWiJ9LHsiaWQiOjI1LCJuYW1lIjoiVGhlIE1lbmFnZXJpZSIsInR5cGUiOiJNZW5hZ2VyaWUiLCJkaW1lbnNpb24iOiJ1bmtub3duIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzY3IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDkwIiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDkxIl0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vMjUiLCJjcmVhdGVkIjoiMjAxNy0xMS0zMFQxMToxMzo0Ni42OTdaIn0seyJpZCI6MjYsIm5hbWUiOiJFYXJ0aCAoSy04MykiLCJ0eXBlIjoiUGxhbmV0IiwiZGltZW5zaW9uIjoiRGltZW5zaW9uIEstODMiLCJyZXNpZGVudHMiOltdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzI2IiwiY3JlYXRlZCI6IjIwMTctMTEtMzBUMTE6NDE6MTEuNDUyWiJ9LHsiaWQiOjI3LCJuYW1lIjoiSGlkZW91dCBQbGFuZXQiLCJ0eXBlIjoiUGxhbmV0IiwiZGltZW5zaW9uIjoidW5rbm93biIsInJlc2lkZW50cyI6WyJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci83OSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzg0Il0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vMjciLCJjcmVhdGVkIjoiMjAxNy0xMS0zMFQxNDoxODoxNi44NjlaIn0seyJpZCI6MjgsIm5hbWUiOiJVbml0eSdzIFBsYW5ldCIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJSZXBsYWNlbWVudCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvOTAiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci8xODgiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci8zMDEiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci8zMzYiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci8zNTUiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci8zNzIiXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi8yOCIsImNyZWF0ZWQiOiIyMDE3LTExLTMwVDE0OjI4OjU0LjU5MVoifSx7ImlkIjoyOSwibmFtZSI6IkRvcmlhbiA1IiwidHlwZSI6IlBsYW5ldCIsImRpbWVuc2lvbiI6IlJlcGxhY2VtZW50IERpbWVuc2lvbiIsInJlc2lkZW50cyI6WyJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci85MyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzEwNCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzE5OCJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzI5IiwiY3JlYXRlZCI6IjIwMTctMTItMDFUMTE6MzY6MTYuNDYzWiJ9LHsiaWQiOjMwLCJuYW1lIjoiRWFydGggKFVua25vd24gZGltZW5zaW9uKSIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJ1bmtub3duIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzgyMiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzgyMyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzgyNCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzgyNSJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzMwIiwiY3JlYXRlZCI6IjIwMTctMTItMDFUMTE6NDk6NDMuOTIzWiJ9LHsiaWQiOjMxLCJuYW1lIjoiRWFydGggKEoxOc62NykiLCJ0eXBlIjoiUGxhbmV0IiwiZGltZW5zaW9uIjoiRGltZW5zaW9uIEoxOc62NyIsInJlc2lkZW50cyI6W10sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vMzEiLCJjcmVhdGVkIjoiMjAxNy0xMi0wMVQxMjoyOToyNy45NzZaIn0seyJpZCI6MzIsIm5hbWUiOiJSb3k6IEEgTGlmZSBXZWxsIExpdmVkIiwidHlwZSI6IkdhbWUiLCJkaW1lbnNpb24iOiJSZXBsYWNlbWVudCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvMTA2IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvMzkzIiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDQ5IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDUwIiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDUxIl0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vMzIiLCJjcmVhdGVkIjoiMjAxNy0xMi0yNlQxMjo0Njo0OC43OThaIn0seyJpZCI6MzMsIm5hbWUiOiJFcmljIFN0b2x0eiBNYXNrIEVhcnRoIiwidHlwZSI6IlBsYW5ldCIsImRpbWVuc2lvbiI6IkVyaWMgU3RvbHR6IE1hc2sgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi8zMyIsImNyZWF0ZWQiOiIyMDE3LTEyLTI2VDEzOjQzOjI5LjI5MVoifSx7ImlkIjozNCwibmFtZSI6IkVhcnRoIChFdmlsIFJpY2sncyBUYXJnZXQgRGltZW5zaW9uKSIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJFdmlsIFJpY2sncyBUYXJnZXQgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzM5IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvMTc3IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvMjMyIiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvMjkwIiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvMzM5Il0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vMzQiLCJjcmVhdGVkIjoiMjAxNy0xMi0yNlQxNTozNToyMC40OTlaIn0seyJpZCI6MzUsIm5hbWUiOiJQbGFuZXQgU3F1YW5jaCIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJSZXBsYWNlbWVudCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNDciLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci83NSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzEwMiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzE5NCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzE5OSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzI1NiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzI2MSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzMwOCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzMxMSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzMzMSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzM3OSJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzM1IiwiY3JlYXRlZCI6IjIwMTctMTItMjZUMTc6NTE6NTMuMDE4WiJ9LHsiaWQiOjM2LCJuYW1lIjoiR2xhYWdhYmxhYWdhIiwidHlwZSI6IlBsYW5ldCIsImRpbWVuc2lvbiI6InVua25vd24iLCJyZXNpZGVudHMiOltdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzM2IiwiY3JlYXRlZCI6IjIwMTctMTItMjZUMjA6MzA6NDUuOTM5WiJ9LHsiaWQiOjM3LCJuYW1lIjoiUmVzb3J0IFBsYW5ldCIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJ1bmtub3duIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzE0MiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzI5NiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzI5NyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzMxOSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzM2OSJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzM3IiwiY3JlYXRlZCI6IjIwMTctMTItMjdUMjA6MDI6NTkuMDA1WiJ9LHsiaWQiOjM4LCJuYW1lIjoiSW50ZXJkaW1lbnNpb25hbCBDdXN0b21zIiwidHlwZSI6IkN1c3RvbXMiLCJkaW1lbnNpb24iOiJ1bmtub3duIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzE0NCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzE1OCJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzM4IiwiY3JlYXRlZCI6IjIwMTctMTItMjlUMTA6Mzc6NDguMjgxWiJ9LHsiaWQiOjM5LCJuYW1lIjoiR2FsYWN0aWMgRmVkZXJhdGlvbiBQcmlzb24iLCJ0eXBlIjoiU3BhY2Ugc3RhdGlvbiIsImRpbWVuc2lvbiI6InVua25vd24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvMTUwIl0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vMzkiLCJjcmVhdGVkIjoiMjAxNy0xMi0yOVQxMjowMjozMy41MTNaIn0seyJpZCI6NDAsIm5hbWUiOiJHYXpvcnBhem9ycCIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJ1bmtub3duIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzE2OCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzIxMSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzM3NiJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzQwIiwiY3JlYXRlZCI6IjIwMTctMTItMjlUMTI6MzE6NTAuMzEzWiJ9XX0=
+  recorded_at: Fri, 03 Dec 2021 19:53:34 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/location?page=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - rickandmortyapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=259200
+      - public
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 03 Dec 2021 19:53:34 GMT
+      Etag:
+      - W/"2072-aURTzfBOfpLEpDVnEmcEgc1737w"
+      Expires:
+      - Mon, 06 Dec 2021 19:53:34 GMT
+      Server:
+      - Netlify
+      X-Nf-Request-Id:
+      - 01FP0XQVW5XD00HQYT4N9628SX
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - Express
+      Content-Length:
+      - '1212'
+      Age:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpbmZvIjp7ImNvdW50IjoxMjYsInBhZ2VzIjo3LCJuZXh0IjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbj9wYWdlPTYiLCJwcmV2IjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbj9wYWdlPTQifSwicmVzdWx0cyI6W3siaWQiOjgxLCJuYW1lIjoiRWFydGggKEZhc2Npc3QgVGVkZHkgQmVhciBEaW1lbnNpb24pIiwidHlwZSI6IlBsYW5ldCIsImRpbWVuc2lvbiI6IkZhc2Npc3QgVGVkZHkgQmVhciBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTA3IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTA4Il0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vODEiLCJjcmVhdGVkIjoiMjAyMC0wNS0wMlQxMjoxNjoxOC4yMjRaIn0seyJpZCI6ODIsIm5hbWUiOiJFYXJ0aCAoV2FzcCBEaW1lbnNpb24pIiwidHlwZSI6IlBsYW5ldCIsImRpbWVuc2lvbiI6Ildhc3AgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzUxNSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzUxOCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzUxOSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzUyMCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzUyMSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzUyMiJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzgyIiwiY3JlYXRlZCI6IjIwMjAtMDUtMDJUMTI6MzQ6MTkuNjU2WiJ9LHsiaWQiOjgzLCJuYW1lIjoiTW9ub2dhdHJvbiBNb3RoZXJzaGlwIiwidHlwZSI6IlNwYWNlIHN0YXRpb24iLCJkaW1lbnNpb24iOiJSZXBsYWNlbWVudCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTI1IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTI3IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTI4IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTMzIl0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vODMiLCJjcmVhdGVkIjoiMjAyMC0wNS0wMlQxMzoxMDo0Mi4yOTlaIn0seyJpZCI6ODQsIm5hbWUiOiJHb3Jnb24gUXVhZHJhbnQiLCJ0eXBlIjoiUXVhZHJhbnQiLCJkaW1lbnNpb24iOiJSZXBsYWNlbWVudCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTQzIl0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vODQiLCJjcmVhdGVkIjoiMjAyMC0wNS0wMlQxMzoyMTo0OS42NjNaIn0seyJpZCI6ODUsIm5hbWUiOiJNaWRsYW5kIFF1YXNhciIsInR5cGUiOiJRdWFzYXIiLCJkaW1lbnNpb24iOiJSZXBsYWNlbWVudCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTI5IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTMwIl0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vODUiLCJjcmVhdGVkIjoiMjAyMC0wNS0wMlQxMzozMDo0MS43MzJaIn0seyJpZCI6ODYsIm5hbWUiOiJNb3VudCBTcGFjZSBFdmVyZXN0IiwidHlwZSI6Ik1vdW50IiwiZGltZW5zaW9uIjoiUmVwbGFjZW1lbnQgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzUzMSJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzg2IiwiY3JlYXRlZCI6IjIwMjAtMDUtMDJUMTM6MzQ6NDUuMzMyWiJ9LHsiaWQiOjg3LCJuYW1lIjoiR2xvYmFmbHluIiwidHlwZSI6IkxpcXVpZCIsImRpbWVuc2lvbiI6IlJlcGxhY2VtZW50IERpbWVuc2lvbiIsInJlc2lkZW50cyI6WyJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci81MzIiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci81NDIiXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi84NyIsImNyZWF0ZWQiOiIyMDIwLTA1LTAyVDEzOjQ0OjU0LjY4OFoifSx7ImlkIjo4OCwibmFtZSI6IkhlaXN0LUNvbiIsInR5cGUiOiJDb252ZW50aW9uIiwiZGltZW5zaW9uIjoiUmVwbGFjZW1lbnQgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU0NCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU0NSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU0NiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU0NyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU0OCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU0OSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU1MCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU1MSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU1MiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU1MyJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzg4IiwiY3JlYXRlZCI6IjIwMjAtMDUtMDdUMDk6MDc6NDEuODE2WiJ9LHsiaWQiOjg5LCJuYW1lIjoiSGVpc3RvdHJvbiBCYXNlIiwidHlwZSI6IlNwYWNlIHN0YXRpb24iLCJkaW1lbnNpb24iOiJSZXBsYWNlbWVudCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTU0IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTU1IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTU2IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTU3IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTU4Il0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vODkiLCJjcmVhdGVkIjoiMjAyMC0wNS0wN1QxMDoxMTo0MC42MzJaIn0seyJpZCI6OTAsIm5hbWUiOiJNb3VudCBPbHltcHVzIiwidHlwZSI6Ik1vdW50IiwiZGltZW5zaW9uIjoiUmVwbGFjZW1lbnQgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi85MCIsImNyZWF0ZWQiOiIyMDIwLTA1LTA3VDEwOjE5OjM0LjIwNloifSx7ImlkIjo5MSwibmFtZSI6IlBsaXR6dmlsbGUgTW9udGFuYSIsInR5cGUiOiJXb29kcyIsImRpbWVuc2lvbiI6IlJlcGxhY2VtZW50IERpbWVuc2lvbiIsInJlc2lkZW50cyI6W10sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vOTEiLCJjcmVhdGVkIjoiMjAyMC0wNS0wN1QxMDoyMzowNy41OTVaIn0seyJpZCI6OTIsIm5hbWUiOiJFYXJ0aCAoVHVzayBEaW1lbnNpb24pIiwidHlwZSI6IlBsYW5ldCIsImRpbWVuc2lvbiI6IlR1c2sgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi85MiIsImNyZWF0ZWQiOiIyMDIwLTA1LTA3VDEwOjI1OjExLjk1MFoifSx7ImlkIjo5MywibmFtZSI6IkdyYW11ZmxhY2siLCJ0eXBlIjoiUGxhbmV0IiwiZGltZW5zaW9uIjoiUmVwbGFjZW1lbnQgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU1OSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU2MCJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzkzIiwiY3JlYXRlZCI6IjIwMjAtMDUtMDdUMTA6MjY6MzUuNTkxWiJ9LHsiaWQiOjk0LCJuYW1lIjoiRHJheWdvbiIsInR5cGUiOiJQbGFuZXQiLCJkaW1lbnNpb24iOiJNYWdpYyBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTYzIiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTY1IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTY2IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTY3IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTY4IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTY5Il0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vOTQiLCJjcmVhdGVkIjoiMjAyMC0wNS0wN1QxMTozMDo0OS45NjNaIn0seyJpZCI6OTUsIm5hbWUiOiJOZXcgSW1wcm92ZWQgR2FsYWN0aWMgRmVkZXJhdGlvbiBRdWFydGVycyIsInR5cGUiOiJTcGFjZSBzdGF0aW9uIiwiZGltZW5zaW9uIjoiUmVwbGFjZW1lbnQgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi85NSIsImNyZWF0ZWQiOiIyMDIwLTA4LTA1VDEyOjQyOjU4LjA0OFoifSx7ImlkIjo5NiwibmFtZSI6IlN0b3J5IFRyYWluIiwidHlwZSI6IkRpZWdlc2lzIiwiZGltZW5zaW9uIjoiUmVwbGFjZW1lbnQgRGltZW5zaW9uIiwicmVzaWRlbnRzIjpbImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU5NyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU5OCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzU5OSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYwMCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYwMSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYwNiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYwNyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYxMSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYxMiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYxNSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYxNiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYxNyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYxOCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYxOSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYyMCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYyMiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYyMyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYyNCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYyNiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYyNyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYzMCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYzMSIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYzMiIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYzMyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYzNCIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYzNyIsImh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvY2hhcmFjdGVyLzYzOCJdLCJ1cmwiOiJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2xvY2F0aW9uLzk2IiwiY3JlYXRlZCI6IjIwMjAtMDgtMDZUMDk6NDc6MjguMjE2WiJ9LHsiaWQiOjk3LCJuYW1lIjoiTm9uLURpZWdldGljIEFsdGVybmF0aXZlIFJlYWxpdHkiLCJ0eXBlIjoiTm9uLURpZWdldGljIEFsdGVybmF0aXZlIFJlYWxpdHkiLCJkaW1lbnNpb24iOiJSZXBsYWNlbWVudCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNTkzIl0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vOTciLCJjcmVhdGVkIjoiMjAyMC0wOC0wNlQwOTo1MDoxMy43NzFaIn0seyJpZCI6OTgsIm5hbWUiOiJUaWNrZXRzIFBsZWFzZSBHdXkgTmlnaHRtYXJlIiwidHlwZSI6Ik5pZ2h0bWFyZSIsImRpbWVuc2lvbiI6IlJlcGxhY2VtZW50IERpbWVuc2lvbiIsInJlc2lkZW50cyI6WyJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci81OTQiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci81OTUiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci81OTYiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci82MDUiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci82MDkiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci82MTAiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci82MzkiXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi85OCIsImNyZWF0ZWQiOiIyMDIwLTA4LTA2VDA5OjUyOjQzLjU4MFoifSx7ImlkIjo5OSwibmFtZSI6Ik1vcnR54oCZcyBTdG9yeSIsInR5cGUiOiJEaWVnZXNpcyIsImRpbWVuc2lvbiI6IlJlcGxhY2VtZW50IERpbWVuc2lvbiIsInJlc2lkZW50cyI6WyJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci82MDIiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci82MDQiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci82MTMiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci82MjgiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci82MjkiLCJodHRwczovL3JpY2thbmRtb3J0eWFwaS5jb20vYXBpL2NoYXJhY3Rlci82MjEiXSwidXJsIjoiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9sb2NhdGlvbi85OSIsImNyZWF0ZWQiOiIyMDIwLTA4LTA2VDExOjQyOjQ2LjA1NFoifSx7ImlkIjoxMDAsIm5hbWUiOiJSaWNrc+KAmXMgU3RvcnkiLCJ0eXBlIjoiRGllZ2VzaXMiLCJkaW1lbnNpb24iOiJSZXBsYWNlbWVudCBEaW1lbnNpb24iLCJyZXNpZGVudHMiOlsiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNjAzIiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNjE0IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNjI1IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNjM1IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNjM2IiwiaHR0cHM6Ly9yaWNrYW5kbW9ydHlhcGkuY29tL2FwaS9jaGFyYWN0ZXIvNjA4Il0sInVybCI6Imh0dHBzOi8vcmlja2FuZG1vcnR5YXBpLmNvbS9hcGkvbG9jYXRpb24vMTAwIiwiY3JlYXRlZCI6IjIwMjAtMDgtMDZUMTE6NDU6MDguNzgyWiJ9XX0=
+  recorded_at: Fri, 03 Dec 2021 19:53:34 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/location?page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - rickandmortyapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=259200
+      - public
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 03 Dec 2021 19:53:34 GMT
+      Etag:
+      - W/"16ad-Wnii7EKBTj4QhWNR5WGGmKBjUxY"
+      Expires:
+      - Mon, 06 Dec 2021 19:53:34 GMT
+      Server:
+      - Netlify
+      Vary:
+      - Accept-Encoding
+      X-Nf-Request-Id:
+      - 01FP0XQVW68GQW6CFJX9JXRWNH
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"info":{"count":126,"pages":7,"next":"https://rickandmortyapi.com/api/location?page=4","prev":"https://rickandmortyapi.com/api/location?page=2"},"results":[{"id":41,"name":"Hamster
+        in Butt World","type":"Planet","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/153"],"url":"https://rickandmortyapi.com/api/location/41","created":"2017-12-29T15:27:54.209Z"},{"id":42,"name":"Earth
+        (Giant Telepathic Spiders Dimension)","type":"Planet","dimension":"Giant Telepathic
+        Spiders Dimension","residents":["https://rickandmortyapi.com/api/character/159","https://rickandmortyapi.com/api/character/160"],"url":"https://rickandmortyapi.com/api/location/42","created":"2017-12-29T16:03:28.720Z"},{"id":43,"name":"Alphabetrium","type":"Planet","dimension":"Replacement
+        Dimension","residents":["https://rickandmortyapi.com/api/character/161","https://rickandmortyapi.com/api/character/162","https://rickandmortyapi.com/api/character/212","https://rickandmortyapi.com/api/character/213","https://rickandmortyapi.com/api/character/253"],"url":"https://rickandmortyapi.com/api/location/43","created":"2017-12-29T16:08:47.694Z"},{"id":44,"name":"Jerryboree","type":"Daycare","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/174","https://rickandmortyapi.com/api/character/257","https://rickandmortyapi.com/api/character/441","https://rickandmortyapi.com/api/character/442","https://rickandmortyapi.com/api/character/443","https://rickandmortyapi.com/api/character/444","https://rickandmortyapi.com/api/character/445","https://rickandmortyapi.com/api/character/446"],"url":"https://rickandmortyapi.com/api/location/44","created":"2017-12-29T17:50:19.947Z"},{"id":45,"name":"Krootabulon","type":"Planet","dimension":"Replacement
+        Dimension","residents":[],"url":"https://rickandmortyapi.com/api/location/45","created":"2017-12-29T19:26:06.827Z"},{"id":46,"name":"Zigerion''s
+        Base","type":"Space station","dimension":"Dimension C-137","residents":["https://rickandmortyapi.com/api/character/87","https://rickandmortyapi.com/api/character/191","https://rickandmortyapi.com/api/character/270","https://rickandmortyapi.com/api/character/337"],"url":"https://rickandmortyapi.com/api/location/46","created":"2017-12-29T19:40:07.748Z"},{"id":47,"name":"Pluto","type":"Dwarf
+        planet (Celestial Dwarf)","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/192","https://rickandmortyapi.com/api/character/307","https://rickandmortyapi.com/api/character/419","https://rickandmortyapi.com/api/character/420","https://rickandmortyapi.com/api/character/421","https://rickandmortyapi.com/api/character/422"],"url":"https://rickandmortyapi.com/api/location/47","created":"2017-12-29T19:49:29.228Z"},{"id":48,"name":"Fantasy
+        World","type":"Planet","dimension":"Fantasy Dimension","residents":["https://rickandmortyapi.com/api/character/41","https://rickandmortyapi.com/api/character/193","https://rickandmortyapi.com/api/character/238","https://rickandmortyapi.com/api/character/333"],"url":"https://rickandmortyapi.com/api/location/48","created":"2017-12-29T19:55:54.672Z"},{"id":49,"name":"Zeep
+        Xanflorp''s Miniverse","type":"Miniverse","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/348"],"url":"https://rickandmortyapi.com/api/location/49","created":"2017-12-29T19:58:44.675Z"},{"id":50,"name":"Kyle''s
+        Teenyverse","type":"Teenyverse","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/197","https://rickandmortyapi.com/api/character/364"],"url":"https://rickandmortyapi.com/api/location/50","created":"2017-12-30T12:36:19.730Z"},{"id":51,"name":"Larva
+        Alien''s Planet","type":"Planet","dimension":"Unknown dimension","residents":[],"url":"https://rickandmortyapi.com/api/location/51","created":"2017-12-30T12:48:19.312Z"},{"id":52,"name":"Earth
+        (K-22)","type":"Planet","dimension":"Dimension K-22","residents":[],"url":"https://rickandmortyapi.com/api/location/52","created":"2017-12-30T16:33:49.507Z"},{"id":53,"name":"Mr.
+        Meeseeks Box","type":"Box","dimension":"unknown","residents":[],"url":"https://rickandmortyapi.com/api/location/53","created":"2017-12-30T17:52:12.217Z"},{"id":54,"name":"Vindicator''s
+        Base","type":"Spacecraft","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/252"],"url":"https://rickandmortyapi.com/api/location/54","created":"2017-12-31T12:57:37.824Z"},{"id":55,"name":"Pawn
+        Shop Planet","type":"Planet","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/258"],"url":"https://rickandmortyapi.com/api/location/55","created":"2017-12-31T13:30:33.579Z"},{"id":56,"name":"Mega
+        Gargantuan Kingdom","type":"Microverse","dimension":"Replacement Dimension","residents":["https://rickandmortyapi.com/api/character/269"],"url":"https://rickandmortyapi.com/api/location/56","created":"2017-12-31T14:01:44.921Z"},{"id":57,"name":"Gear
+        World","type":"Planet","dimension":"unknown","residents":["https://rickandmortyapi.com/api/character/282","https://rickandmortyapi.com/api/character/447","https://rickandmortyapi.com/api/character/448"],"url":"https://rickandmortyapi.com/api/location/57","created":"2017-12-31T19:21:17.276Z"},{"id":58,"name":"Earth
+        (D-99)","type":"Planet","dimension":"Dimension D-99","residents":[],"url":"https://rickandmortyapi.com/api/location/58","created":"2017-12-31T19:49:55.109Z"},{"id":59,"name":"Earth
+        (D716)","type":"Planet","dimension":"Dimension D716","residents":[],"url":"https://rickandmortyapi.com/api/location/59","created":"2017-12-31T19:51:33.170Z"},{"id":60,"name":"Earth
+        (D716-B)","type":"Planet","dimension":"Dimension D716-B","residents":[],"url":"https://rickandmortyapi.com/api/location/60","created":"2017-12-31T19:55:25.026Z"}]}'
+  recorded_at: Fri, 03 Dec 2021 19:53:34 GMT
+recorded_with: VCR 6.0.0

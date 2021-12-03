@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/episode/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - rickandmortyapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=259200
+      - public
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Dec 2021 22:29:07 GMT
+      Etag:
+      - W/"436-ikAUNHB7SSXt+1Wx7dfr10qOu3E"
+      Expires:
+      - Sun, 05 Dec 2021 22:29:07 GMT
+      Server:
+      - Netlify
+      X-Nf-Request-Id:
+      - 01FP0XQX0GVP6417W5HK0MTKKV
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - Express
+      Content-Length:
+      - '241'
+      Age:
+      - '77068'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":1,"name":"Pilot","air_date":"December 2, 2013","episode":"S01E01","characters":["https://rickandmortyapi.com/api/character/1","https://rickandmortyapi.com/api/character/2","https://rickandmortyapi.com/api/character/35","https://rickandmortyapi.com/api/character/38","https://rickandmortyapi.com/api/character/62","https://rickandmortyapi.com/api/character/92","https://rickandmortyapi.com/api/character/127","https://rickandmortyapi.com/api/character/144","https://rickandmortyapi.com/api/character/158","https://rickandmortyapi.com/api/character/175","https://rickandmortyapi.com/api/character/179","https://rickandmortyapi.com/api/character/181","https://rickandmortyapi.com/api/character/239","https://rickandmortyapi.com/api/character/249","https://rickandmortyapi.com/api/character/271","https://rickandmortyapi.com/api/character/338","https://rickandmortyapi.com/api/character/394","https://rickandmortyapi.com/api/character/395","https://rickandmortyapi.com/api/character/435"],"url":"https://rickandmortyapi.com/api/episode/1","created":"2017-11-10T12:56:33.798Z"}'
+  recorded_at: Fri, 03 Dec 2021 19:53:35 GMT
+recorded_with: VCR 6.0.0

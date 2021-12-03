@@ -8,9 +8,10 @@ class RickAndMortyTest < Minitest::Test
   end
 
   def test_fetch_all_characters
-    VCR.use_cassette("characters") do
-      assert_instance_of Array, RickAndMorty.characters
-      assert_instance_of Hash, RickAndMorty.characters.first
+    VCR.use_cassette("all_characters") do
+      characters = RickAndMorty.characters
+      assert_instance_of Array, characters
+      assert_instance_of Hash, characters.first
     end
   end
 
@@ -21,20 +22,28 @@ class RickAndMortyTest < Minitest::Test
   end
 
   def test_fetch_all_episodes
-    assert_instance_of Array, RickAndMorty.episodes
-    assert_instance_of Hash, RickAndMorty.episodes.first
+    VCR.use_cassette("all_episodes") do
+      assert_instance_of Array, RickAndMorty.episodes
+      assert_instance_of Hash, RickAndMorty.episodes.first
+    end
   end
 
   def test_fetch_episode
-    assert_instance_of Hash, RickAndMorty.episode(1)
+    VCR.use_cassette("episode") do
+      assert_instance_of Hash, RickAndMorty.episode(1)
+    end
   end
 
   def test_fetch_all_locations
-    assert_instance_of Array, RickAndMorty.locations
-    assert_instance_of Hash, RickAndMorty.locations.first
+    VCR.use_cassette("all_locations") do
+      assert_instance_of Array, RickAndMorty.locations
+      assert_instance_of Hash, RickAndMorty.locations.first
+    end
   end
 
   def test_fetch_location
-    assert_instance_of Hash, RickAndMorty.location(1)
+    VCR.use_cassette("location") do
+      assert_instance_of Hash, RickAndMorty.location(1)
+    end
   end
 end

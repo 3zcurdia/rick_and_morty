@@ -38,9 +38,7 @@ module RickAndMorty
     attr_reader :base_url
 
     def request(path, **args)
-      uri = URI.join(base_url, path)
-      query_items = args.fetch(:query, {}).compact
-      uri.query = URI.encode_www_form(query_items)
+      uri = build_uri(path, **args)
       Net::HTTP.start(uri.host, uri.port, use_ssl: true) do |http|
         request = yield(uri)
         handle(http.request(request))
@@ -62,6 +60,14 @@ module RickAndMorty
       JSON.parse(content, symbolize_names: true)
     rescue JSON::ParserError
       nil
+    end
+
+    def build_uri(path, **args)
+      query_items = args.fetch(:query, {}).compact
+
+      uri = URI.join(base_url, path)
+      uri.query = URI.encode_www_form(query_items)
+      uri
     end
   end
 end
