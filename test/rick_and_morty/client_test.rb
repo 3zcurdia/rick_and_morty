@@ -5,16 +5,16 @@ require "test_helper"
 module RickAndMorty
   class ClientTest < Minitest::Test
     def client
-      Client.new("https://rickandmortyapi.com/api/")
+      Network::Client.new("https://rickandmortyapi.com/api/")
     end
 
     def test_client_class_must_exist
-      refute_nil Client.new("https://example.com")
+      refute_nil Network::Client.new("https://example.com")
     end
 
     def test_client_must_raise_an_exception_when_path_missing
       VCR.use_cassette("client_error") do
-        assert_raises ClientError do
+        assert_raises Network::ClientError do
           client.get("bad_uri")
         end
       end

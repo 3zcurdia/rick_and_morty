@@ -1,9 +1,10 @@
 # frozen_string_literal: true
 
 module RickAndMorty
+  # It handles any rick and morty api requests
   class Endpoint
     def initialize
-      @client = Client.new("https://rickandmortyapi.com/api/")
+      @client = Network::Client.new("https://rickandmortyapi.com/api/")
     end
 
     def all

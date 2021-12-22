@@ -3,7 +3,7 @@
 require "json"
 require_relative "rick_and_morty/version"
 require_relative "rick_and_morty/async_stream"
-require_relative "rick_and_morty/client"
+require_relative "rick_and_morty/network"
 require_relative "rick_and_morty/endpoint"
 require_relative "rick_and_morty/character"
 require_relative "rick_and_morty/location"
@@ -11,8 +11,6 @@ require_relative "rick_and_morty/episode"
 
 module RickAndMorty
   class Error < StandardError; end
-  class ClientError < Error; end
-  class ServerError < Error; end
 
   def self.characters
     Character.new.all
